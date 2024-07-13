@@ -2,16 +2,14 @@
 
 [![NPM Version](https://img.shields.io/npm/v/llamaflowjs)](https://www.npmjs.com/package/llamaflowjs)
 [![NPM License](https://img.shields.io/npm/l/llamaflowjs)](https://www.npmjs.com/package/llamaflowjs)
-[![NPM Downloads](https://img.shields.io/npm/dm/llamaflowjs)](https://www.npmjs.com/package/llamaflowjs)
-[![Discord](https://img.shields.io/discord/1059199217496772688)](https://discord.com/invite/eN6D2HQ4aX)
 
 llamaflowjs is a framework that has inbuilt agentic workflows,reiterative reflection and llm review system making it a true framework for llm applications
 
-llamaflowjs is built on top of llamaflowjs
+llamaflowjs is built on top of llamaindex
 
 - llamaflowjs will be carried out as an independent Project.
 - Focused on building the true agentic workflow that provides built-in solution towards reiterative reflection and review of llm prompts
-  Use your own data with large language models (LLMs, OpenAI ChatGPT and others) in Typescript and Javascript.
+- Talk with large language models (LLMs, OpenAI ChatGPT and others) in Typescript and Javascript with 10x better results and accuracy.
 
 Documentation: https://llamaflowjs.ai/
 
