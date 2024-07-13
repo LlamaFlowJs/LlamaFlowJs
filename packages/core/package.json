@@ -1,7 +1,7 @@
 {
   "name": "@llamaflowjs/core",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "llamaflowjs Core Module",
   "exports": {
     "./llms": {
