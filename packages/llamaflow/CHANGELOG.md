@@ -1,4 +1,4 @@
-# llamaindex
+# llamaflow
 
 ## 0.5.2
 
@@ -12,7 +12,7 @@
 ### Patch Changes
 
 - 2774681: Add mixedbread's embeddings and reranking API
-- a0f424e: corrected the regex in the react.ts file in extractToolUse & extractJsonStr functions, as mentioned in https://github.com/run-llama/LlamaIndexTS/issues/1019
+- a0f424e: corrected the regex in the react.ts file in extractToolUse & extractJsonStr functions, as mentioned in https://github.com/run-llama/llamaflowTS/issues/1019
 
 ## 0.5.0
 
@@ -26,7 +26,7 @@
 
 - 16ef5dd: refactor: move callback manager & llm to core module
 
-  For people who import `llamaindex/llms/base` or `llamaindex/llms/utils`,
+  For people who import `llamaflow/llms/base` or `llamaflow/llms/utils`,
   use `@llamaflow/core/llms` and `@llamaflow/core/utils` instead.
 
 - 36ddec4: fix: typo in custom page separator parameter for LlamaParse
@@ -239,7 +239,7 @@
 
 - c3747d0: fix: import `@xenova/transformers`
 
-  For now, if you use llamaindex in next.js, you need to add a plugin from `llamaindex/next` to ensure some module resolutions are correct.
+  For now, if you use llamaflow in next.js, you need to add a plugin from `llamaflow/next` to ensure some module resolutions are correct.
 
 ## 0.3.8
 
@@ -476,7 +476,7 @@
 - c8396c5: feat: add base evaluator and correctness evaluator
 - c8396c5: feat: add base evaluator and correctness evaluator
 - cf87f84: fix: type backward compatibility
-- 09bf27a: Add Groq LLM to LlamaIndex
+- 09bf27a: Add Groq LLM to LlamaFlow
 - Updated dependencies [cf87f84]
   - @llamaflow/env@0.0.4
 
@@ -515,7 +515,7 @@
 
 - a5e4e6d: Add using a managed index from LlamaCloud
 - cfdd6db: fix: update pinecone vector store
-- 59f9fb6: Add Fireworks to LlamaIndex
+- 59f9fb6: Add Fireworks to LlamaFlow
 - 95add73: feat: multi-document agent
 
 ## 0.1.11
@@ -639,11 +639,11 @@ No changes for this release.
 - e2790da: Preview: Add ingestion pipeline (incl. different strategies to handle doc store duplicates)
 - bff40f2: feat: use conditional exports
 
-  The benefit of conditional exports is we split the llamaindex into different files. This will improve the tree shake if you are building web apps.
+  The benefit of conditional exports is we split the LlamaFlow into different files. This will improve the tree shake if you are building web apps.
 
   This also requires node16 (see https://nodejs.org/api/packages.html#conditional-exports).
 
-  If you are seeing typescript issue `TS2724`('llamaindex' has no exported member named XXX):
+  If you are seeing typescript issue `TS2724`('llamaflow' has no exported member named XXX):
 
   1. update `moduleResolution` to `bundler` in `tsconfig.json`, more for the web applications like Next.js, and vite, but still works for ts-node or tsx.
   2. consider the ES module in your project, add `"type": "module"` into `package.json` and update `moduleResolution` to `node16` or `nodenext` in `tsconfig.json`.

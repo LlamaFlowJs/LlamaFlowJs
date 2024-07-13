@@ -13,7 +13,7 @@ export LLAMA_CLOUD_API_KEY=your-api-key
 For using another environment, also set the `LLAMA_CLOUD_BASE_URL` environment variable:
 
 ```shell
-export LLAMA_CLOUD_BASE_URL="https://api.staging.llamaindex.ai"
+export LLAMA_CLOUD_BASE_URL="https://api.staging.llamaflow.ai"
 ```
 
 ## Chat Engine

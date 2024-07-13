@@ -2,7 +2,7 @@
   "name": "@llamaflow/core",
   "type": "module",
   "version": "0.1.0",
-  "description": "LlamaIndex Core Module",
+  "description": "LlamaFlow Core Module",
   "exports": {
     "./llms": {
       "require": {
@@ -85,7 +85,7 @@
   "repository": {
     "type": "git",
     "directory": "packages/core",
-    "url": "https://github.com/himself65/LlamaIndexTS.git"
+    "url": "https://github.com/himself65/llamaflowTS.git"
   },
   "devDependencies": {
     "ajv": "^8.16.0",

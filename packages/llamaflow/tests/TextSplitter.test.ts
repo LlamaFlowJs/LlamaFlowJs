@@ -1,7 +1,4 @@
-import {
-  SentenceSplitter,
-  cjkSentenceTokenizer,
-} from "llamaindex/TextSplitter";
+import { SentenceSplitter, cjkSentenceTokenizer } from "llamaflow/TextSplitter";
 import { describe, expect, test } from "vitest";
 
 describe("SentenceSplitter", () => {

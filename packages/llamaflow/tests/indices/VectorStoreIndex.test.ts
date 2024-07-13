@@ -1,6 +1,6 @@
 import type { ServiceContext, StorageContext } from "llamaflow";
 import { Document, VectorStoreIndex } from "llamaflow";
-import { DocStoreStrategy } from "llamaindex/ingestion/strategies/index";
+import { DocStoreStrategy } from "llamaflow/ingestion/strategies/index";
 import { mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";

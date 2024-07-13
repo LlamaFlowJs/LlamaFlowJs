@@ -206,7 +206,7 @@ export type TextNodeParams<T extends Metadata = Metadata> =
   };
 
 /**
- * TextNode is the default node type for text. Most common node type in LlamaIndex.TS
+ * TextNode is the default node type for text. Most common node type in LlamaFlow
  */
 export class TextNode<T extends Metadata = Metadata> extends BaseNode<T> {
   text: string;

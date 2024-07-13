@@ -1,4 +1,4 @@
-import { DocxReader } from "llamaindex/readers/DocxReader";
+import { DocxReader } from "llamaflow/readers/DocxReader";
 import { beforeEach, describe, expect, it } from "vitest";
 
 describe("DocxReader", () => {

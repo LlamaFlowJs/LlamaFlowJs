@@ -12,7 +12,7 @@
 
 - 16ef5dd: refactor: move callback manager & llm to core module
 
-  For people who import `llamaindex/llms/base` or `llamaindex/llms/utils`,
+  For people who import `llamaflow/llms/base` or `llamaflow/llms/utils`,
   use `@llamaflow/core/llms` and `@llamaflow/core/utils` instead.
 
 ## 0.0.3

@@ -1,6 +1,6 @@
-import { SimpleDirectoryReader } from "llamaindex/readers/SimpleDirectoryReader";
+import { SimpleDirectoryReader } from "llamaflow/readers/SimpleDirectoryReader";
 // or
-// import { SimpleDirectoryReader } from 'llamaindex'
+// import { SimpleDirectoryReader } from 'llamaflow'
 
 const reader = new SimpleDirectoryReader();
 const documents = await reader.loadData("../data");

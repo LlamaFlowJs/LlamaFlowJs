@@ -11,7 +11,7 @@ This is useful for measuring if the response was hallucinated. The evaluator ret
 Firstly, you need to install the package:
 
 ```bash
-pnpm i llamaindex
+pnpm i llamaflow
 ```
 
 Set the OpenAI API key:

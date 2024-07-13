@@ -3,8 +3,8 @@ import { FileReader } from "llamaflow";
 import {
   FILE_EXT_TO_READER,
   SimpleDirectoryReader,
-} from "llamaindex/readers/SimpleDirectoryReader";
-import { TextFileReader } from "llamaindex/readers/TextFileReader";
+} from "llamaflow/readers/SimpleDirectoryReader";
+import { TextFileReader } from "llamaflow/readers/TextFileReader";
 
 class ZipReader extends FileReader {
   loadDataAsContent(fileContent: Uint8Array): Promise<Document<Metadata>[]> {

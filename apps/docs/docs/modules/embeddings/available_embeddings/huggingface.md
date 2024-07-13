@@ -1,6 +1,6 @@
 # HuggingFace
 
-To use HuggingFace embeddings, you need to import `HuggingFaceEmbedding` from `llamaindex`.
+To use HuggingFace embeddings, you need to import `HuggingFaceEmbedding` from `llamaflow`.
 
 ```ts
 import { HuggingFaceEmbedding, Settings } from "llamaflow";

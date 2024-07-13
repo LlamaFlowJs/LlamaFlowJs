@@ -51,7 +51,7 @@ export class AstraDBVectorStore
       getEnv("ASTRA_DB_NAMESPACE") ??
       "default_keyspace";
     this.astraClient = new DataAPIClient(token, {
-      caller: ["LlamaIndexTS"],
+      caller: ["LlamaFlow"],
     });
     this.astraDB = this.astraClient.db(endpoint, { namespace });
 

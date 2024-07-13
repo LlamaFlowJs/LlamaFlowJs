@@ -6,6 +6,6 @@ export type {
   LLMStreamEvent,
   LLMToolCallEvent,
   LLMToolResultEvent,
-  LlamaIndexEventMaps,
+  LlamaFlowEventMaps,
 } from "./settings/callback-manager";
 export type { JSONArray, JSONObject, JSONValue } from "./type";

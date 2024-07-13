@@ -1,5 +1,5 @@
 import { OpenAI, OpenAIEmbedding, VectorStoreIndex } from "llamaflow";
-import { PDFReader } from "llamaindex/readers/PDFReader";
+import { PDFReader } from "llamaflow/readers/PDFReader";
 
 import { Settings } from "llamaflow";
 

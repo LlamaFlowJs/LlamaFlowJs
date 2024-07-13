@@ -1,7 +1,7 @@
 import { extractText } from "@llamaflow/core/utils";
 import { encodingForModel } from "js-tiktoken";
 import { ChatMessage, OpenAI } from "llamaflow";
-import { Settings } from "llamaindex/Settings";
+import { Settings } from "llamaflow/Settings";
 
 const encoding = encodingForModel("gpt-4-0125-preview");
 

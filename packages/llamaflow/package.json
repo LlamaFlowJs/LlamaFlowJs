@@ -152,8 +152,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/run-llama/LlamaIndexTS.git",
-    "directory": "packages/llamaindex"
+    "url": "https://github.com/run-llama/llamaflowTS.git",
+    "directory": "packages/llamaflow"
   },
   "scripts": {
     "lint": "eslint .",

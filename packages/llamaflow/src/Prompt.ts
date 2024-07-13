@@ -3,7 +3,7 @@ import type { SubQuestion } from "./engines/query/types.js";
 
 /**
  * A SimplePrompt is a function that takes a dictionary of inputs and returns a string.
- * NOTE this is a different interface compared to LlamaIndex Python
+ * NOTE this is a different interface compared to LlamaFlow Python
  * NOTE 2: we default to empty string to make it easy to calculate prompt sizes
  */
 export type SimplePrompt = (

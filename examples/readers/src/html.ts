@@ -1,10 +1,10 @@
 import { VectorStoreIndex } from "llamaflow";
-import { HTMLReader } from "llamaindex/readers/HTMLReader";
+import { HTMLReader } from "llamaflow/readers/HTMLReader";
 
 async function main() {
   // Load page
   const reader = new HTMLReader();
-  const documents = await reader.loadData("../data/llamaindex.html");
+  const documents = await reader.loadData("../data/llamaflow.html");
 
   // Split text and create embeddings. Store them in a VectorStoreIndex
   const index = await VectorStoreIndex.fromDocuments(documents);
@@ -12,7 +12,7 @@ async function main() {
   // Query the index
   const queryEngine = index.asQueryEngine();
   const response = await queryEngine.query({
-    query: "What can I do with LlamaIndex?",
+    query: "What can I do with LlamaFlow?",
   });
 
   // Output response

@@ -20,8 +20,8 @@ const indexName = process.env.MONGODB_VECTOR_INDEX!;
 async function loadAndIndex() {
   // Create a new client and connect to the server
   const client = new MongoClient(mongoUri);
-  // load objects from mongo and convert them into LlamaIndex Document objects
-  // llamaindex has a special class that does this for you
+  // load objects from mongo and convert them into LlamaFlow Document objects
+  // llamaflow has a special class that does this for you
   // it pulls every object in a given collection
   const reader = new SimpleMongoReader(client);
   const documents = await reader.loadData(databaseName, collectionName, [

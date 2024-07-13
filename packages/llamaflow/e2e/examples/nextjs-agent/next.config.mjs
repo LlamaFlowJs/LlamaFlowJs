@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-import withLlamaIndex from "llamaindex/next";
+import withLlamaFlow from "llamaflow/next";
 
-export default withLlamaIndex(nextConfig);
+export default withLlamaFlow(nextConfig);

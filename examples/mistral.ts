@@ -14,7 +14,7 @@ Settings.llm = new MistralAI({ model: "mistral-tiny" });
 
 async function rag(query: string) {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaindex/examples/abramov.txt";
+  const path = "node_modules/llamaflow/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

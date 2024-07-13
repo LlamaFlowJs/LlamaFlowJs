@@ -1,7 +1,7 @@
 import {
   storageContextFromDefaults,
   type StorageContext,
-} from "llamaindex/storage/StorageContext";
+} from "llamaflow/storage/StorageContext";
 import { existsSync, rmSync } from "node:fs";
 import { mkdtemp } from "node:fs/promises";
 import { tmpdir } from "node:os";

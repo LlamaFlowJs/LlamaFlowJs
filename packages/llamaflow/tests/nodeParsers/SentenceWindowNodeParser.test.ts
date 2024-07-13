@@ -2,7 +2,7 @@ import { Document, MetadataMode } from "@llamaflow/core/schema";
 import {
   DEFAULT_WINDOW_METADATA_KEY,
   SentenceWindowNodeParser,
-} from "llamaindex/nodeParsers/index";
+} from "llamaflow/nodeParsers/index";
 import { describe, expect, test } from "vitest";
 
 describe("Tests for the SentenceWindowNodeParser class", () => {

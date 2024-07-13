@@ -1,7 +1,7 @@
 import {
   rakeExtractKeywords,
   simpleExtractKeywords,
-} from "llamaindex/indices/keyword/utils";
+} from "llamaflow/indices/keyword/utils";
 import { describe, expect, test } from "vitest";
 describe("SimpleExtractKeywords", () => {
   test("should extract unique keywords", () => {

@@ -4,10 +4,10 @@ The Jina AI Reranker is a postprocessor that uses the Jina AI Reranker API to re
 
 ## Setup
 
-Firstly, you will need to install the `llamaindex` package.
+Firstly, you will need to install the `llamaflow` package.
 
 ```bash
-pnpm install llamaindex
+pnpm install llamaflow
 ```
 
 Now, you will need to sign up for an API key at [Jina AI](https://jina.ai/reranker). Once you have your API key you can import the necessary modules and create a new instance of the `JinaAIReranker` class.

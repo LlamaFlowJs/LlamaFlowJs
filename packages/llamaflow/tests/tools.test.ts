@@ -1,5 +1,5 @@
-import { ToolsFactory } from "llamaindex/tools/ToolsFactory";
-import { WikipediaTool } from "llamaindex/tools/WikipediaTool";
+import { ToolsFactory } from "llamaflow/tools/ToolsFactory";
+import { WikipediaTool } from "llamaflow/tools/WikipediaTool";
 import { assertType, describe, test } from "vitest";
 
 describe("ToolsFactory", async () => {

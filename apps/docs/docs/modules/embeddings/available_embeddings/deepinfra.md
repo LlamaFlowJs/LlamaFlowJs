@@ -1,6 +1,6 @@
 # DeepInfra
 
-To use DeepInfra embeddings, you need to import `DeepInfraEmbedding` from llamaindex.
+To use DeepInfra embeddings, you need to import `DeepInfraEmbedding` from llamaflow.
 Check out available embedding models [here](https://deepinfra.com/models/embeddings).
 
 ```ts

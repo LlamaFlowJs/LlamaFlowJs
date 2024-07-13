@@ -7,7 +7,7 @@
 - Updated dependencies [16ef5dd]
 - Updated dependencies [16ef5dd]
 - Updated dependencies [36ddec4]
-  - llamaindex@0.5.0
+  - llamaflow@0.5.0
   - @llamaflow/core@0.1.0
 
 ## 0.0.6
@@ -16,7 +16,7 @@
 
 - 2ef62a9: feat: added support for embeddings via HuggingFace Inference API
 - Updated dependencies [2ef62a9]
-  - llamaindex@0.4.3
+  - llamaflow@0.4.3
 
 ## 0.0.5
 
@@ -26,7 +26,7 @@
 - Updated dependencies [a44e54f]
 - Updated dependencies [a51ed8d]
 - Updated dependencies [d3b635b]
-  - llamaindex@0.4.0
+  - llamaflow@0.4.0
 
 ## 0.0.4
 
@@ -39,4 +39,4 @@
 - Updated dependencies [d766bd0]
 - Updated dependencies [dd95927]
 - Updated dependencies [bf583a7]
-  - llamaindex@0.2.0
+  - llamaflow@0.2.0

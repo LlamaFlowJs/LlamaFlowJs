@@ -7,7 +7,7 @@
 - Updated dependencies [16ef5dd]
 - Updated dependencies [16ef5dd]
 - Updated dependencies [36ddec4]
-  - llamaindex@0.5.0
+  - llamaflow@0.5.0
 
 ## 1.0.0
 
@@ -17,4 +17,4 @@
 - Updated dependencies [a44e54f]
 - Updated dependencies [a51ed8d]
 - Updated dependencies [d3b635b]
-  - llamaindex@0.4.0
+  - llamaflow@0.4.0

@@ -19,7 +19,7 @@ Settings.embedModel = new HuggingFaceEmbedding({
 
 async function main() {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaindex/examples/abramov.txt";
+  const path = "node_modules/llamaflow/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

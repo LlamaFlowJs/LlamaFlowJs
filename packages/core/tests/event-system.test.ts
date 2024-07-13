@@ -2,7 +2,7 @@ import { CallbackManager, Settings } from "@llamaflow/core/global";
 import { beforeEach, describe, expect, expectTypeOf, test, vi } from "vitest";
 
 declare module "@llamaflow/core/global" {
-  interface LlamaIndexEventMaps {
+  interface LlamaFlowEventMaps {
     test: {
       value: number;
     };

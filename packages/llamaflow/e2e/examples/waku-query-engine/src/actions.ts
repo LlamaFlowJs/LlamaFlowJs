@@ -5,7 +5,7 @@ let _queryEngine: QueryEngine;
 
 async function lazyLoadQueryEngine() {
   if (!_queryEngine) {
-    const path = "node_modules/llamaindex/examples/abramov.txt";
+    const path = "node_modules/llamaflow/examples/abramov.txt";
 
     const essay = await readFile(path, "utf-8");
 

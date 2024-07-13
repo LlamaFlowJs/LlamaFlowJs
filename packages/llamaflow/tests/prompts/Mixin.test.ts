@@ -1,4 +1,4 @@
-import { PromptMixin } from "llamaindex/prompts/index";
+import { PromptMixin } from "llamaflow/prompts/index";
 import { describe, expect, it } from "vitest";
 
 type MockPrompt = {

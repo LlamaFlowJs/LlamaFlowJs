@@ -1,7 +1,7 @@
-# LlamaIndexTS Examples
+# LlamaFlow Examples
 
 Before running any of the code examples,
-make sure you have basic knowledge of the [LlamaIndexTS](https://ts.llamaindex.ai/).
+make sure you have basic knowledge of the [LlamaFlow](https://ts.llamaflow.ai/).
 
 ## Usage
 
