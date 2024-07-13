@@ -1,4 +1,4 @@
-import { Anthropic, FunctionTool, ReActAgent } from "llamaflow";
+import { Anthropic, FunctionTool, ReActAgent } from "llamaflowjs";
 
 // Define a function to sum two numbers
 function sumNumbers({ a, b }: { a: number; b: number }) {

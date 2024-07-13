@@ -10,7 +10,7 @@ import type {
   PartialToolCall,
   ToolCall,
   ToolCallLLMMessageOptions,
-} from "@llamaflow/core/llms";
+} from "@llamaflowjs/core/llms";
 import {
   type BedrockAdditionalChatOptions,
   type BedrockChatStreamResponse,

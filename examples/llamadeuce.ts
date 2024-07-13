@@ -1,4 +1,4 @@
-import { DeuceChatStrategy, LlamaDeuce } from "llamaflow";
+import { DeuceChatStrategy, LlamaDeuce } from "llamaflowjs";
 
 (async () => {
   const deuce = new LlamaDeuce({ chatStrategy: DeuceChatStrategy.META });

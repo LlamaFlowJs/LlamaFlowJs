@@ -1,9 +1,9 @@
 # Together
 
-To use together embeddings, you need to import `TogetherEmbedding` from `llamaflow`.
+To use together embeddings, you need to import `TogetherEmbedding` from `llamaflowjs`.
 
 ```ts
-import { TogetherEmbedding, Settings } from "llamaflow";
+import { TogetherEmbedding, Settings } from "llamaflowjs";
 
 Settings.embedModel = new TogetherEmbedding({
   apiKey: "<YOUR_API_KEY>",

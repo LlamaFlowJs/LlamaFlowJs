@@ -1,5 +1,5 @@
-import { VectorStoreIndex } from "llamaflow";
-import { MarkdownReader } from "llamaflow/readers/MarkdownReader";
+import { VectorStoreIndex } from "llamaflowjs";
+import { MarkdownReader } from "llamaflowjs/readers/MarkdownReader";
 
 const FILE_PATH = "../data/planets.md";
 const SAMPLE_QUERY = "List all planets";

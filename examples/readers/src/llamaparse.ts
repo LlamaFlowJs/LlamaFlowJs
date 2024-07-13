@@ -1,4 +1,4 @@
-import { LlamaParseReader, VectorStoreIndex } from "llamaflow";
+import { LlamaParseReader, VectorStoreIndex } from "llamaflowjs";
 
 async function main() {
   // Load PDF using LlamaParse

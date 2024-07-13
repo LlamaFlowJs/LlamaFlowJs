@@ -1,4 +1,4 @@
-import { OpenAI, OpenAIEmbedding } from "llamaflow";
+import { OpenAI, OpenAIEmbedding } from "llamaflowjs";
 
 (async () => {
   const llm = new OpenAI({ model: "gpt-4-1106-preview", temperature: 0.1 });

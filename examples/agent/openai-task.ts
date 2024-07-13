@@ -1,4 +1,4 @@
-import { ChatResponseChunk, OpenAIAgent } from "llamaflow";
+import { ChatResponseChunk, OpenAIAgent } from "llamaflowjs";
 import { ReadableStream } from "node:stream/web";
 import {
   getCurrentIDTool,

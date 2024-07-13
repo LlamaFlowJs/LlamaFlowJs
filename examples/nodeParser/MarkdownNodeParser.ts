@@ -1,4 +1,4 @@
-import { Document, MarkdownNodeParser } from "llamaflow";
+import { Document, MarkdownNodeParser } from "llamaflowjs";
 
 async function main() {
   const markdownParser = new MarkdownNodeParser();

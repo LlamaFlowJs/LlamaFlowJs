@@ -2,7 +2,7 @@ import {
   AstraDBVectorStore,
   VectorStoreIndex,
   serviceContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const collectionName = "movie_reviews";
 

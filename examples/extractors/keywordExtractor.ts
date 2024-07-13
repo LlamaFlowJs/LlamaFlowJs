@@ -3,7 +3,7 @@ import {
   KeywordExtractor,
   OpenAI,
   SimpleNodeParser,
-} from "llamaflow";
+} from "llamaflowjs";
 
 (async () => {
   const openaiLLM = new OpenAI({ model: "gpt-3.5-turbo", temperature: 0 });

@@ -1,4 +1,4 @@
-import { CorrectnessEvaluator, OpenAI, Settings } from "llamaflow";
+import { CorrectnessEvaluator, OpenAI, Settings } from "llamaflowjs";
 
 // Update llm to use OpenAI
 Settings.llm = new OpenAI({ model: "gpt-4" });

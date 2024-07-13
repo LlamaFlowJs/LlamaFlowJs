@@ -1,7 +1,7 @@
-import { OpenAI, OpenAIEmbedding, VectorStoreIndex } from "llamaflow";
-import { PDFReader } from "llamaflow/readers/PDFReader";
+import { OpenAI, OpenAIEmbedding, VectorStoreIndex } from "llamaflowjs";
+import { PDFReader } from "llamaflowjs/readers/PDFReader";
 
-import { Settings } from "llamaflow";
+import { Settings } from "llamaflowjs";
 
 // Update llm and embedModel
 

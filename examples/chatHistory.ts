@@ -6,7 +6,7 @@ import {
   Settings,
   SimpleChatEngine,
   SummaryChatHistory,
-} from "llamaflow";
+} from "llamaflowjs";
 
 if (process.env.NODE_ENV === "development") {
   Settings.callbackManager.on("llm-end", (event) => {

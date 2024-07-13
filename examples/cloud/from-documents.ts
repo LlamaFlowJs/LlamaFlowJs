@@ -4,10 +4,10 @@ import { stdin as input, stdout as output } from "node:process";
 
 import readline from "node:readline/promises";
 
-import { Document, LlamaCloudIndex } from "llamaflow";
+import { Document, LlamaCloudIndex } from "llamaflowjs";
 
 async function main() {
-  const path = "node_modules/llamaflow/examples/abramov.txt";
+  const path = "node_modules/llamaflowjs/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

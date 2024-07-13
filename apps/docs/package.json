@@ -17,10 +17,10 @@
   "dependencies": {
     "@docusaurus/core": "3.4.0",
     "@docusaurus/remark-plugin-npm2yarn": "3.4.0",
-    "@llamaflow/examples": "workspace:*",
+    "@llamaflowjs/examples": "workspace:*",
     "@mdx-js/react": "3.0.1",
     "clsx": "2.1.1",
-    "llamaflow": "workspace:*",
+    "llamaflowjs": "workspace:*",
     "postcss": "8.4.39",
     "prism-react-renderer": "2.3.1",
     "raw-loader": "4.0.2",

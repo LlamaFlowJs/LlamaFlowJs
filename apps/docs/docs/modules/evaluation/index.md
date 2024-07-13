@@ -4,7 +4,7 @@
 
 Evaluation and benchmarking are crucial concepts in LLM development. To improve the perfomance of an LLM app (RAG, agents) you must have a way to measure it.
 
-LlamaFlow offers key modules to measure the quality of generated results. We also offer key modules to measure retrieval quality.
+llamaflowjs offers key modules to measure the quality of generated results. We also offer key modules to measure retrieval quality.
 
 - **Response Evaluation**: Does the response match the retrieved context? Does it also match the query? Does it match the reference answer or guidelines?
 - **Retrieval Evaluation**: Are the retrieved sources relevant to the query?
@@ -13,7 +13,7 @@ LlamaFlow offers key modules to measure the quality of generated results. We als
 
 Evaluation of generated results can be difficult, since unlike traditional machine learning the predicted result is not a single number, and it can be hard to define quantitative metrics for this problem.
 
-LlamaFlow offers LLM-based evaluation modules to measure the quality of results. This uses a “gold” LLM (e.g. GPT-4) to decide whether the predicted answer is correct in a variety of ways.
+llamaflowjs offers LLM-based evaluation modules to measure the quality of results. This uses a “gold” LLM (e.g. GPT-4) to decide whether the predicted answer is correct in a variety of ways.
 
 Note that many of these current evaluation modules do not require ground-truth labels. Evaluation can be done with some combination of the query, context, response, and combine these with LLM calls.
 

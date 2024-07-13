@@ -1,4 +1,4 @@
-import { convertTools } from "@llamaflow/autotool";
+import { convertTools } from "@llamaflowjs/autotool";
 import { OpenAI } from "openai";
 import "./index.tool.js";
 

@@ -4,9 +4,9 @@
 
 Node postprocessors are a set of modules that take a set of nodes, and apply some kind of transformation or filtering before returning them.
 
-In LlamaFlow, node postprocessors are most commonly applied within a query engine, after the node retrieval step and before the response synthesis step.
+In llamaflowjs, node postprocessors are most commonly applied within a query engine, after the node retrieval step and before the response synthesis step.
 
-LlamaFlow offers several node postprocessors for immediate use, while also providing a simple API for adding your own custom postprocessors.
+llamaflowjs offers several node postprocessors for immediate use, while also providing a simple API for adding your own custom postprocessors.
 
 ## Usage Pattern
 
@@ -18,7 +18,7 @@ import {
   NodeWithScore,
   SimilarityPostprocessor,
   CohereRerank,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const nodes: NodeWithScore[] = [
   {
@@ -26,7 +26,7 @@ const nodes: NodeWithScore[] = [
     score: 0.8,
   },
   {
-    node: new TextNode({ text: "LlamaFlow is the best" }),
+    node: new TextNode({ text: "llamaflowjs is the best" }),
     score: 0.6,
   },
 ];
@@ -51,14 +51,14 @@ console.log(filteredNodes, rerankedNodes);
 
 Now you can use the `filteredNodes` and `rerankedNodes` in your application.
 
-## Using Node Postprocessors in LlamaFlow
+## Using Node Postprocessors in llamaflowjs
 
 Most commonly, node-postprocessors will be used in a query engine, where they are applied to the nodes returned from a retriever, and before the response synthesis step.
 
 ### Using Node Postprocessors in a Query Engine
 
 ```ts
-import { Node, NodeWithScore, SimilarityPostprocessor, CohereRerank, Settings } from "llamaflow";
+import { Node, NodeWithScore, SimilarityPostprocessor, CohereRerank, Settings } from "llamaflowjs";
 
 // Use OpenAI LLM
 Settings.llm = new OpenAI({ model: "gpt-3.5-turbo", temperature: 0.1 });
@@ -69,7 +69,7 @@ const nodes: NodeWithScore[] = [
     score: 0.8,
   },
   {
-    node: new TextNode({ text: "LlamaFlow is the best" }),
+    node: new TextNode({ text: "llamaflowjs is the best" }),
     score: 0.6,
   }
 ];
@@ -93,7 +93,7 @@ const response = await queryEngine.query("<user_query>");
 ### Using with retrieved nodes
 
 ```ts
-import { SimilarityPostprocessor } from "llamaflow";
+import { SimilarityPostprocessor } from "llamaflowjs";
 
 nodes = await index.asRetriever().retrieve({ query: "test query str" });
 

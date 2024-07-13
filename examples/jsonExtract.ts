@@ -1,4 +1,4 @@
-import { OpenAI } from "llamaflow";
+import { OpenAI } from "llamaflowjs";
 
 // Example using OpenAI's chat API to extract JSON from a sales call transcript
 // using json_mode see https://platform.openai.com/docs/guides/text-generation/json-mode for more details

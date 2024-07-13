@@ -1,4 +1,4 @@
-import { Settings, SimpleDirectoryReader, VectorStoreIndex } from "llamaflow";
+import { Settings, SimpleDirectoryReader, VectorStoreIndex } from "llamaflowjs";
 import path from "path";
 import { getStorageContext } from "./storage";
 

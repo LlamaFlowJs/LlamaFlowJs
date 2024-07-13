@@ -1,4 +1,4 @@
-import { createSHA256, path, randomUUID } from "@llamaflow/env";
+import { createSHA256, path, randomUUID } from "@llamaflowjs/env";
 import { chunkSizeCheck, lazyInitHash } from "../decorator";
 
 export enum NodeRelationship {
@@ -206,7 +206,7 @@ export type TextNodeParams<T extends Metadata = Metadata> =
   };
 
 /**
- * TextNode is the default node type for text. Most common node type in LlamaFlow
+ * TextNode is the default node type for text. Most common node type in llamaflowjs
  */
 export class TextNode<T extends Metadata = Metadata> extends BaseNode<T> {
   text: string;

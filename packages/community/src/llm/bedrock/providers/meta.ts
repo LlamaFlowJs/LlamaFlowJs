@@ -2,7 +2,7 @@ import type {
   InvokeModelCommandInput,
   InvokeModelWithResponseStreamCommandInput,
 } from "@aws-sdk/client-bedrock-runtime";
-import type { ChatMessage, LLMMetadata } from "@llamaflow/core/llms";
+import type { ChatMessage, LLMMetadata } from "@llamaflowjs/core/llms";
 import type { MetaNoneStreamingResponse, MetaStreamEvent } from "../types";
 import {
   mapChatMessagesToMetaLlama2Messages,

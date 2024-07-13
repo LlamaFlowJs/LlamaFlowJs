@@ -1,4 +1,4 @@
-import { SimpleDirectoryReader } from "llamaflow";
+import { SimpleDirectoryReader } from "llamaflowjs";
 
 function callback(
   category: string,

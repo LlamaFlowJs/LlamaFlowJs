@@ -5,7 +5,7 @@ import {
   OpenAIEmbedding,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Update embed model
 Settings.embedModel = new OpenAIEmbedding({
@@ -15,7 +15,7 @@ Settings.embedModel = new OpenAIEmbedding({
 
 async function main() {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaflow/examples/abramov.txt";
+  const path = "node_modules/llamaflowjs/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

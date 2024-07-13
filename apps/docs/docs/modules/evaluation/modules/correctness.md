@@ -9,7 +9,7 @@ This is useful for measuring if the response was correct. The evaluator returns 
 Firstly, you need to install the package:
 
 ```bash
-pnpm i llamaflow
+pnpm i llamaflowjs
 ```
 
 Set the OpenAI API key:
@@ -21,7 +21,7 @@ export OPENAI_API_KEY=your-api-key
 Import the required modules:
 
 ```ts
-import { CorrectnessEvaluator, OpenAI, Settings, Response } from "llamaflow";
+import { CorrectnessEvaluator, OpenAI, Settings, Response } from "llamaflowjs";
 ```
 
 Let's setup gpt-4 for better results:

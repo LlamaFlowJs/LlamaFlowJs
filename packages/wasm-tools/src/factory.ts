@@ -84,7 +84,7 @@ export default class ToolFactory {
 
   private static initWasmInstanceFromFile = (filePath: string) => {
     const wasmFile = fs.readFileSync(
-      `node_modules/@llamaflow/tools/dist/${filePath}.wasm`,
+      `node_modules/@llamaflowjs/tools/dist/${filePath}.wasm`,
     );
 
     const wasmInstance = loader.instantiateSync(wasmFile, {
@@ -143,7 +143,7 @@ export default class ToolFactory {
 
   public static get toolList(): string[] {
     return fs
-      .readdirSync("node_modules/@llamaflow/tools/dist")
+      .readdirSync("node_modules/@llamaflowjs/tools/dist")
       .filter((file) => file.endsWith(".wasm"))
       .map((file) => file.replace(".wasm", ""));
   }

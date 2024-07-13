@@ -4,7 +4,7 @@ import {
   RelevancyEvaluator,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 Settings.llm = new OpenAI({
   model: "gpt-4",

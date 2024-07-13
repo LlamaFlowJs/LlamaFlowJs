@@ -4,7 +4,7 @@ In this tutorial, we define a custom router query engine that selects one out of
 
 ## Setup
 
-First, we need to install import the necessary modules from `llamaflow`:
+First, we need to install import the necessary modules from `llamaflowjs`:
 
 ```bash
 pnpm i lamaindex
@@ -19,7 +19,7 @@ import {
   SummaryIndex,
   VectorStoreIndex,
   Settings,
-} from "llamaflow";
+} from "llamaflowjs";
 ```
 
 ## Loading Data
@@ -28,7 +28,7 @@ Next, we need to load some data. We will use the `SimpleDirectoryReader` to load
 
 ```ts
 const documents = await new SimpleDirectoryReader().loadData({
-  directoryPath: "node_modules/llamaflow/examples",
+  directoryPath: "node_modules/llamaflowjs/examples",
 });
 ```
 
@@ -108,7 +108,7 @@ import {
   SummaryIndex,
   VectorStoreIndex,
   Settings,
-} from "llamaflow";
+} from "llamaflowjs";
 
 Settings.llm = new OpenAI();
 Settings.nodeParser = new SimpleNodeParser({
@@ -118,7 +118,7 @@ Settings.nodeParser = new SimpleNodeParser({
 async function main() {
   // Load documents from a directory
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "node_modules/llamaflow/examples",
+    directoryPath: "node_modules/llamaflowjs/examples",
   });
 
   // Create indices

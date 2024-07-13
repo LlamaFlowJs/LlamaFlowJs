@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { Gemini, Settings, GEMINI_MODEL } from "llamaflow";
+import { Gemini, Settings, GEMINI_MODEL } from "llamaflowjs";
 
 Settings.llm = new Gemini({
   model: GEMINI_MODEL.GEMINI_PRO,
@@ -17,7 +17,7 @@ To use Gemini via Vertex AI you can use `GeminiVertexSession`.
 GeminiVertexSession accepts the env variables: `GOOGLE_VERTEX_LOCATION` and `GOOGLE_VERTEX_PROJECT`
 
 ```ts
-import { Gemini, GEMINI_MODEL, GeminiVertexSession } from "llamaflow";
+import { Gemini, GEMINI_MODEL, GeminiVertexSession } from "llamaflowjs";
 
 const gemini = new Gemini({
   model: GEMINI_MODEL.GEMINI_PRO,
@@ -71,7 +71,7 @@ import {
   VectorStoreIndex,
   Settings,
   GEMINI_MODEL,
-} from "llamaflow";
+} from "llamaflowjs";
 
 Settings.llm = new Gemini({
   model: GEMINI_MODEL.GEMINI_PRO,

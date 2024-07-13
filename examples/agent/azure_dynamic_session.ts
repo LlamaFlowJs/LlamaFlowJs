@@ -4,7 +4,7 @@ import {
   DefaultAzureCredential,
   getBearerTokenProvider,
 } from "@azure/identity";
-import { AzureDynamicSessionTool, OpenAI, ReActAgent } from "llamaflow";
+import { AzureDynamicSessionTool, OpenAI, ReActAgent } from "llamaflowjs";
 
 async function main() {
   const credential = new DefaultAzureCredential();

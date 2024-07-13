@@ -1,4 +1,4 @@
-import { ClipEmbedding, similarity, SimilarityType } from "llamaflow";
+import { ClipEmbedding, similarity, SimilarityType } from "llamaflowjs";
 
 async function main() {
   const clip = new ClipEmbedding();

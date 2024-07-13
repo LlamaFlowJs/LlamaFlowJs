@@ -4,7 +4,7 @@ import {
   OpenAI,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Update llm to use OpenAI
 Settings.llm = new OpenAI({ model: "gpt-4" });

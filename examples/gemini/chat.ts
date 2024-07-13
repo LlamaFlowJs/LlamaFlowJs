@@ -1,4 +1,4 @@
-import { Gemini, GEMINI_MODEL } from "llamaflow";
+import { Gemini, GEMINI_MODEL } from "llamaflowjs";
 
 (async () => {
   if (!process.env.GOOGLE_API_KEY) {

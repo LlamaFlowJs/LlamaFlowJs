@@ -4,10 +4,10 @@ The Cohere Reranker is a postprocessor that uses the Cohere API to rerank the re
 
 ## Setup
 
-Firstly, you will need to install the `llamaflow` package.
+Firstly, you will need to install the `llamaflowjs` package.
 
 ```bash
-pnpm install llamaflow
+pnpm install llamaflowjs
 ```
 
 Now, you will need to sign up for an API key at [Cohere](https://cohere.ai/). Once you have your API key you can import the necessary modules and create a new instance of the `CohereRerank` class.
@@ -19,7 +19,7 @@ import {
   OpenAI,
   VectorStoreIndex,
   Settings,
-} from "llamaflow";
+} from "llamaflowjs";
 ```
 
 ## Load and index documents

@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-import { Document, Groq, Settings, VectorStoreIndex } from "llamaflow";
+import { Document, Groq, Settings, VectorStoreIndex } from "llamaflowjs";
 
 // Update llm to use Groq
 Settings.llm = new Groq({
@@ -9,7 +9,7 @@ Settings.llm = new Groq({
 
 async function main() {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaflow/examples/abramov.txt";
+  const path = "node_modules/llamaflowjs/examples/abramov.txt";
   const essay = await fs.readFile(path, "utf-8");
   const document = new Document({ text: essay, id_: "essay" });
 

@@ -1,4 +1,4 @@
-import { AsyncLocalStorage } from "@llamaflow/env";
+import { AsyncLocalStorage } from "@llamaflowjs/env";
 
 const chunkSizeAsyncLocalStorage = new AsyncLocalStorage<number | undefined>();
 let globalChunkSize: number | null = null;

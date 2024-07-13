@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { Ollama, Settings } from "llamaflow";
+import { Ollama, Settings } from "llamaflowjs";
 
 Settings.llm = ollamaLLM;
 Settings.embedModel = ollamaLLM;
@@ -34,7 +34,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { Ollama, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { Ollama, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 import fs from "fs/promises";
 

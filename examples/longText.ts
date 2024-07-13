@@ -3,7 +3,7 @@ import {
   Settings,
   SimpleNodeParser,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 export const STORAGE_DIR = "./data";
 

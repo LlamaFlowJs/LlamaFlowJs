@@ -15,8 +15,8 @@ import {
   type LLMMetadata,
   ToolCallLLM,
   type ToolCallLLMMessageOptions,
-} from "@llamaflow/core/llms";
-import { streamConverter, wrapLLMEvent } from "@llamaflow/core/utils";
+} from "@llamaflowjs/core/llms";
+import { streamConverter, wrapLLMEvent } from "@llamaflowjs/core/utils";
 import {
   type BedrockAdditionalChatOptions,
   type BedrockChatStreamResponse,

@@ -7,7 +7,7 @@ import {
   Settings,
   VectorStoreIndex,
   storageContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Update callback manager
 Settings.callbackManager.on("retrieve-end", (event) => {

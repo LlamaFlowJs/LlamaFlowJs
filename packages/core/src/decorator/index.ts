@@ -1,4 +1,4 @@
-import { getEnv } from "@llamaflow/env";
+import { getEnv } from "@llamaflowjs/env";
 import { Settings } from "../global";
 import type { BaseNode } from "../schema/node";
 

@@ -3,7 +3,7 @@ import type {
   JSONSchema7Definition,
   JSONSchema7TypeName,
 } from "json-schema";
-import type { ToolMetadata } from "llamaflow";
+import type { ToolMetadata } from "llamaflowjs";
 import type { SourceMapInput } from "rollup";
 import td from "typedoc";
 import type { SourceMapCompact } from "unplugin";
@@ -90,11 +90,11 @@ export async function transformAutoTool(
     });
   }
   if (
-    !/^import\s+{\sinjectMetadata\s}\s+from\s+['"]@llamaflow\/tool['"]/.test(
+    !/^import\s+{\sinjectMetadata\s}\s+from\s+['"]@llamaflowjs\/tool['"]/.test(
       code,
     )
   ) {
-    code = `import {injectMetadata} from '@llamaflow/autotool';\n${code}`;
+    code = `import {injectMetadata} from '@llamaflowjs/autotool';\n${code}`;
   }
   return {
     code,

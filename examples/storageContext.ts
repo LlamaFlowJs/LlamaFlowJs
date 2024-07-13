@@ -2,7 +2,7 @@ import {
   Document,
   storageContextFromDefaults,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 import essay from "./essay";
 
 async function main() {

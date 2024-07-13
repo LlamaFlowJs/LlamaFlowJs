@@ -1,4 +1,4 @@
-import { AsyncLocalStorage, CustomEvent } from "@llamaflow/env";
+import { AsyncLocalStorage, CustomEvent } from "@llamaflowjs/env";
 import type {
   ChatMessage,
   ChatResponse,

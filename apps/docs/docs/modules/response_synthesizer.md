@@ -20,7 +20,7 @@ The ResponseSynthesizer is responsible for sending the query, nodes, and prompt 
   chunk.
 
 ```typescript
-import { NodeWithScore, ResponseSynthesizer, TextNode } from "llamaflow";
+import { NodeWithScore, ResponseSynthesizer, TextNode } from "llamaflowjs";
 
 const responseSynthesizer = new ResponseSynthesizer();
 

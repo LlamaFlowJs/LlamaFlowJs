@@ -9,7 +9,7 @@ It is useful for measuring if the response was relevant to the query. The evalua
 Firstly, you need to install the package:
 
 ```bash
-pnpm i llamaflow
+pnpm i llamaflowjs
 ```
 
 Set the OpenAI API key:
@@ -27,7 +27,7 @@ import {
   Settings,
   Document,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 ```
 
 Let's setup gpt-4 for better results:

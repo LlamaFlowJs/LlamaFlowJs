@@ -3,12 +3,12 @@ import {
   QueryEngineTool,
   SimpleDirectoryReader,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 async function main() {
   // Load the documents
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "node_modules/llamaflow/examples",
+    directoryPath: "node_modules/llamaflowjs/examples",
   });
 
   // Create a vector index from the documents

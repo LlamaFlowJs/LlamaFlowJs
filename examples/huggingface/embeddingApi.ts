@@ -6,7 +6,7 @@ import {
   HuggingFaceInferenceAPIEmbedding,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 if (!process.env.HUGGING_FACE_TOKEN) {
   throw new Error("Please set the HUGGING_FACE_TOKEN environment variable.");
@@ -25,7 +25,7 @@ Settings.llm = new HuggingFaceInferenceAPI({
 
 async function main() {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaflow/examples/abramov.txt";
+  const path = "node_modules/llamaflowjs/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

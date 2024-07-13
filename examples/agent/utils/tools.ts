@@ -1,4 +1,4 @@
-import { FunctionTool } from "llamaflow";
+import { FunctionTool } from "llamaflowjs";
 
 export const getCurrentIDTool = FunctionTool.from(
   () => {

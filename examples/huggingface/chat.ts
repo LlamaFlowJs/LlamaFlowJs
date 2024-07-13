@@ -1,4 +1,4 @@
-import { HuggingFaceInferenceAPI } from "llamaflow";
+import { HuggingFaceInferenceAPI } from "llamaflowjs";
 
 (async () => {
   if (!process.env.HUGGING_FACE_TOKEN) {

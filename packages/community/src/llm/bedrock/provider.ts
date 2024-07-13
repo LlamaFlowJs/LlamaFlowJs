@@ -9,8 +9,8 @@ import {
   type ChatResponseChunk,
   type LLMMetadata,
   type ToolCallLLMMessageOptions,
-} from "@llamaflow/core/llms";
-import { streamConverter } from "@llamaflow/core/utils";
+} from "@llamaflowjs/core/llms";
+import { streamConverter } from "@llamaflowjs/core/utils";
 import type { ToolChoice } from "./types";
 import { toUtf8 } from "./utils";
 

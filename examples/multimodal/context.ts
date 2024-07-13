@@ -6,7 +6,7 @@ import {
   OpenAI,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 import { getStorageContext } from "./storage";
 
 // Update chunk size and overlap

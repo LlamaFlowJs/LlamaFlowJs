@@ -1,4 +1,4 @@
-import { OpenAI } from "llamaflow";
+import { OpenAI } from "llamaflowjs";
 
 (async () => {
   const llm = new OpenAI({ model: "gpt-4-turbo", temperature: 0.1 });

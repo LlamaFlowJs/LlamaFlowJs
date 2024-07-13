@@ -1,5 +1,5 @@
-import { VectorStoreIndex } from "llamaflow";
-import { PDFReader } from "llamaflow/readers/PDFReader";
+import { VectorStoreIndex } from "llamaflowjs";
+import { PDFReader } from "llamaflowjs/readers/PDFReader";
 
 async function main() {
   // Load PDF

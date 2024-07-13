@@ -1,4 +1,4 @@
-import { AsyncLocalStorage, randomUUID } from "@llamaflow/env";
+import { AsyncLocalStorage, randomUUID } from "@llamaflowjs/env";
 
 export const isAsyncIterable = (
   obj: unknown,

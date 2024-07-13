@@ -5,7 +5,7 @@ import {
   SimpleDirectoryReader,
   storageContextFromDefaults,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 async function getSourceFilenames(sourceDir: string) {
   return await fs

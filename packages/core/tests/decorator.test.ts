@@ -1,5 +1,5 @@
-import { Settings } from "@llamaflow/core/global";
-import { TextNode } from "@llamaflow/core/schema";
+import { Settings } from "@llamaflowjs/core/global";
+import { TextNode } from "@llamaflowjs/core/schema";
 import { env } from "process";
 import { afterEach, describe, expect, test, vi } from "vitest";
 describe("chunkSizeCheck", () => {

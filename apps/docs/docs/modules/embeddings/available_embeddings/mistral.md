@@ -1,9 +1,9 @@
 # MistralAI
 
-To use MistralAI embeddings, you need to import `MistralAIEmbedding` from `llamaflow`.
+To use MistralAI embeddings, you need to import `MistralAIEmbedding` from `llamaflowjs`.
 
 ```ts
-import { MistralAIEmbedding, Settings } from "llamaflow";
+import { MistralAIEmbedding, Settings } from "llamaflowjs";
 
 // Update Embed Model
 Settings.embedModel = new MistralAIEmbedding({

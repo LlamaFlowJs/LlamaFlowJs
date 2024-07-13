@@ -1,4 +1,4 @@
-import type { JSONObject } from "@llamaflow/core/global";
+import type { JSONObject } from "@llamaflowjs/core/global";
 import type {
   BaseTool,
   ChatMessage,
@@ -7,7 +7,7 @@ import type {
   MessageContentTextDetail,
   ToolCallLLMMessageOptions,
   ToolMetadata,
-} from "@llamaflow/core/llms";
+} from "@llamaflowjs/core/llms";
 import type {
   AnthropicContent,
   AnthropicImageContent,

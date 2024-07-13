@@ -4,8 +4,8 @@ import {
   ResponseSynthesizer,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
-import { PapaCSVReader } from "llamaflow/readers/CSVReader";
+} from "llamaflowjs";
+import { PapaCSVReader } from "llamaflowjs/readers/CSVReader";
 
 Settings.llm = new OpenAI({ model: "gpt-4" });
 

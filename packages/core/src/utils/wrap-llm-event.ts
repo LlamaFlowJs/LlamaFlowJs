@@ -1,4 +1,4 @@
-import { AsyncLocalStorage, randomUUID } from "@llamaflow/env";
+import { AsyncLocalStorage, randomUUID } from "@llamaflowjs/env";
 import { getCallbackManager } from "../global/settings/callback-manager";
 import type { ChatResponse, ChatResponseChunk, LLM, LLMChat } from "../llms";
 

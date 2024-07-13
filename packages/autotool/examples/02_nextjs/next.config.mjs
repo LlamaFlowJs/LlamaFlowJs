@@ -1,5 +1,5 @@
-import { withNext } from "@llamaflow/autotool/next";
-import withLlamaFlow from "llamaflow/next";
+import { withNext } from "@llamaflowjs/autotool/next";
+import withLlamaFlow from "llamaflowjs/next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {};

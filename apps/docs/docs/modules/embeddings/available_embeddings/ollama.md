@@ -1,6 +1,6 @@
 # Ollama
 
-To use Ollama embeddings, you need to import `OllamaEmbedding` from `llamaflow`.
+To use Ollama embeddings, you need to import `OllamaEmbedding` from `llamaflowjs`.
 
 Note that you need to pull the embedding model first before using it.
 
@@ -11,7 +11,7 @@ ollama pull nomic-embed-text
 ```
 
 ```ts
-import { OllamaEmbedding, Settings } from "llamaflow";
+import { OllamaEmbedding, Settings } from "llamaflowjs";
 
 Settings.embedModel = new OllamaEmbedding({ model: "nomic-embed-text" });
 

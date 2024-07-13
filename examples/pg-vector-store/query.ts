@@ -1,4 +1,4 @@
-import { PGVectorStore, VectorStoreIndex } from "llamaflow";
+import { PGVectorStore, VectorStoreIndex } from "llamaflowjs";
 
 async function main() {
   const readline = require("readline").createInterface({

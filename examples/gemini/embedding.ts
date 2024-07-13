@@ -1,4 +1,4 @@
-import { GEMINI_EMBEDDING_MODEL, GeminiEmbedding } from "llamaflow";
+import { GEMINI_EMBEDDING_MODEL, GeminiEmbedding } from "llamaflowjs";
 
 async function main() {
   if (!process.env.GOOGLE_API_KEY) {

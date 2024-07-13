@@ -15,7 +15,7 @@ export AZURE_OPENAI_DEPLOYMENT="gpt-4" # or some other deployment name
 ## Usage
 
 ```ts
-import { OpenAI, Settings } from "llamaflow";
+import { OpenAI, Settings } from "llamaflowjs";
 
 Settings.llm = new OpenAI({ model: "gpt-4", temperature: 0 });
 ```
@@ -45,7 +45,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { OpenAI, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { OpenAI, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 Settings.llm = new OpenAI({ model: "gpt-4", temperature: 0 });
 

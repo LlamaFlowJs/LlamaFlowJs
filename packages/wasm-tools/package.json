@@ -1,5 +1,5 @@
 {
-  "name": "@llamaflow/wasm-tools",
+  "name": "@llamaflowjs/wasm-tools",
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
@@ -47,7 +47,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/run-llama/llamaflowTS.git",
+    "url": "https://github.com/LlamaFlowJs/LlamaFlowJs.git",
     "directory": "packages/tools"
   },
   "scripts": {

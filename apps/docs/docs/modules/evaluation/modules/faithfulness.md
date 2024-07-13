@@ -11,7 +11,7 @@ This is useful for measuring if the response was hallucinated. The evaluator ret
 Firstly, you need to install the package:
 
 ```bash
-pnpm i llamaflow
+pnpm i llamaflowjs
 ```
 
 Set the OpenAI API key:
@@ -29,7 +29,7 @@ import {
   OpenAI,
   VectorStoreIndex,
   Settings,
-} from "llamaflow";
+} from "llamaflowjs";
 ```
 
 Let's setup gpt-4 for better results:

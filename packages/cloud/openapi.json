@@ -2,12 +2,12 @@
   "openapi": "3.1.0",
   "info": {
     "title": "LlamaCloud",
-    "termsOfService": "https://www.llamaflow.ai/files/terms-of-service.pdf",
+    "termsOfService": "https://www.llamaflowjs.ai/files/terms-of-service.pdf",
     "version": "0.1.0"
   },
   "servers": [
     {
-      "url": "https://api.cloud.llamaflow.ai/",
+      "url": "https://api.cloud.llamaflowjs.ai/",
       "description": "LlamaCloud Production Server"
     }
   ],

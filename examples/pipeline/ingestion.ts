@@ -6,11 +6,11 @@ import {
   MetadataMode,
   OpenAIEmbedding,
   SimpleNodeParser,
-} from "llamaflow";
+} from "llamaflowjs";
 
 async function main() {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaflow/examples/abramov.txt";
+  const path = "node_modules/llamaflowjs/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

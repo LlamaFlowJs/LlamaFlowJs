@@ -1,6 +1,6 @@
 import { program } from "commander";
-import { TranscribeParams, VectorStoreIndex } from "llamaflow";
-import { AudioTranscriptReader } from "llamaflow/readers/AssemblyAIReader";
+import { TranscribeParams, VectorStoreIndex } from "llamaflowjs";
+import { AudioTranscriptReader } from "llamaflowjs/readers/AssemblyAIReader";
 import { stdin as input, stdout as output } from "node:process";
 import { createInterface } from "node:readline/promises";
 

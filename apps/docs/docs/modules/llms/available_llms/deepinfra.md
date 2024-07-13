@@ -3,7 +3,7 @@
 Check out available LLMs [here](https://deepinfra.com/models/text-generation).
 
 ```ts
-import { DeepInfra, Settings } from "llamaflow";
+import { DeepInfra, Settings } from "llamaflowjs";
 
 // Get the API key from `DEEPINFRA_API_TOKEN` environment variable
 import { config } from "dotenv";
@@ -46,7 +46,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { DeepInfra, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { DeepInfra, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 // Use custom LLM
 const model = "meta-llama/Meta-Llama-3-8B-Instruct";

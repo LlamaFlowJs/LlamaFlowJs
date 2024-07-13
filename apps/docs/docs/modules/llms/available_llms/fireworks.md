@@ -5,7 +5,7 @@ Fireworks.ai focus on production use cases for open source LLMs, offering speed 
 ## Usage
 
 ```ts
-import { FireworksLLM, Settings } from "llamaflow";
+import { FireworksLLM, Settings } from "llamaflowjs";
 
 Settings.llm = new FireworksLLM({
   apiKey: "<YOUR_API_KEY>",
@@ -36,8 +36,8 @@ const response = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { VectorStoreIndex } from "llamaflow";
-import { PDFReader } from "llamaflow/readers/PDFReader";
+import { VectorStoreIndex } from "llamaflowjs";
+import { PDFReader } from "llamaflowjs/readers/PDFReader";
 
 async function main() {
   // Load PDF

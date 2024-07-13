@@ -3,7 +3,7 @@ import {
   Document,
   VectorStoreIndex,
   storageContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const collectionName = "dog_colors";
 

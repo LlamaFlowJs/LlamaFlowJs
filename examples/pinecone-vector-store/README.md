@@ -21,7 +21,7 @@ To import documents and save the embedding vectors to your database:
 
 > `npx tsx pinecone-vector-store/load-docs.ts data`
 
-where data is the directory containing your input files. Using the _data_ directory in the example above will read all of the files in that directory using the LlamaFlow default readers for each file type.
+where data is the directory containing your input files. Using the _data_ directory in the example above will read all of the files in that directory using the llamaflowjs default readers for each file type.
 
 **NOTE**: Sending text chunks as part of the Pinecone metadata means that upsert API calls can get arbitrarily large. Set the **PINECONE_CHUNK_SIZE** environment variable to a smaller value if the load script fails
 

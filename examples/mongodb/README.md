@@ -1,4 +1,4 @@
-# LlamaFlow retrieval augmented generation with MongoDB
+# llamaflowjs retrieval augmented generation with MongoDB
 
 ### Prepare Environment
 
@@ -37,11 +37,11 @@ You are now ready to import our ready-made data set into Mongo. This is the file
 npx tsx mongodb/1_import.ts
 ```
 
-If you don't want to use tweets, you can replace `json_file` with any other array of JSON objects, but you will need to modify some code later to make sure the correct field gets indexed. There is no LlamaFlow-specific code here; you can load your data into Mongo any way you want to.
+If you don't want to use tweets, you can replace `json_file` with any other array of JSON objects, but you will need to modify some code later to make sure the correct field gets indexed. There is no llamaflowjs-specific code here; you can load your data into Mongo any way you want to.
 
 ### Load and index your data
 
-Now we're ready to index our data. To do this, LlamaFlow will pull your text out of Mongo, split it into chunks, and then send those chunks to OpenAI to be turned into [vector embeddings](https://docs.llamaflow.ai/en/stable/understanding/indexing/indexing.html#what-is-an-embedding). The embeddings will then be stored in a new collection in Mongo. This will take a while depending how much text you have, but the good news is that once it's done you will be able to query quickly without needing to re-index.
+Now we're ready to index our data. To do this, llamaflowjs will pull your text out of Mongo, split it into chunks, and then send those chunks to OpenAI to be turned into [vector embeddings](https://docs.llamaflowjs.ai/en/stable/understanding/indexing/indexing.html#what-is-an-embedding). The embeddings will then be stored in a new collection in Mongo. This will take a while depending how much text you have, but the good news is that once it's done you will be able to query quickly without needing to re-index.
 
 We'll be using OpenAI to do the embedding, so now is when you need to [generate an OpenAI API key](https://platform.openai.com/account/api-keys) if you haven't already and add it to your `.env` file like this:
 
@@ -115,6 +115,6 @@ You can do this by running
 npx tsx mongodb/3_query.ts
 ```
 
-This sets up a connection to Atlas just like `2_load_and_index.ts` did, then it creates a [query engine](https://docs.llamaflow.ai/en/stable/understanding/querying/querying.html#getting-started) and runs a query against it.
+This sets up a connection to Atlas just like `2_load_and_index.ts` did, then it creates a [query engine](https://docs.llamaflowjs.ai/en/stable/understanding/querying/querying.html#getting-started) and runs a query against it.
 
 If all is well, you should get a nuanced opinion about web frameworks.

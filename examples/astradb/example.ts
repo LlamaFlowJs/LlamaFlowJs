@@ -3,7 +3,7 @@ import {
   Document,
   storageContextFromDefaults,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const collectionName = "test_collection";
 

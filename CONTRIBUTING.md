@@ -6,7 +6,7 @@ This is a monorepo built with Turborepo
 
 Right now there are two packages of importance:
 
-packages/llamaflow which is the main NPM library llamaflow
+packages/llamaflowjs which is the main NPM library llamaflowjs
 
 examples is where the demo code lives
 
@@ -18,7 +18,7 @@ You can checkout how Turborepo works using the default [README-turborepo.md](/RE
 
 Install NodeJS. Preferably v18 using nvm or n.
 
-Inside the LlamaFlow directory:
+Inside the llamaflowjs directory:
 
 ```
 npm i -g pnpm ts-node
@@ -41,7 +41,7 @@ To run them, run
 pnpm run test
 ```
 
-To write new test cases write them in [packages/llamaflow/tests](/packages/llamaflow/tests)
+To write new test cases write them in [packages/llamaflowjs/tests](/packages/llamaflowjs/tests)
 
 We use Jest https://jestjs.io/ to write our test cases. Jest comes with a bunch of built in assertions using the expect function: https://jestjs.io/docs/expect
 
@@ -56,7 +56,7 @@ You can create new demo applications in the apps folder. Just run pnpm init in t
 To install packages for a specific package or demo application, run
 
 ```
-pnpm add [NPM Package] --filter [package or application i.e. llamaflow or docs]
+pnpm add [NPM Package] --filter [package or application i.e. llamaflowjs or docs]
 ```
 
 To install packages for every package or application run

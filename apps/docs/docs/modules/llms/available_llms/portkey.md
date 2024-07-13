@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { Portkey, Settings } from "llamaflow";
+import { Portkey, Settings } from "llamaflowjs";
 
 Settings.llm = new Portkey({
   apiKey: "<YOUR_API_KEY>",
@@ -35,7 +35,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { Portkey, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { Portkey, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 // Use the Portkey LLM
 Settings.llm = new Portkey({

@@ -1,11 +1,11 @@
-# @llamaflow/autotool-02-next-example
+# @llamaflowjs/autotool-02-next-example
 
 ## 0.1.27
 
 ### Patch Changes
 
-- llamaflow@0.5.2
-- @llamaflow/autotool@2.0.0
+- llamaflowjs@0.5.2
+- @llamaflowjs/autotool@2.0.0
 
 ## 0.1.26
 
@@ -13,8 +13,8 @@
 
 - Updated dependencies [2774681]
 - Updated dependencies [a0f424e]
-  - llamaflow@0.5.1
-  - @llamaflow/autotool@2.0.0
+  - llamaflowjs@0.5.1
+  - @llamaflowjs/autotool@2.0.0
 
 ## 0.1.25
 
@@ -23,15 +23,15 @@
 - Updated dependencies [16ef5dd]
 - Updated dependencies [16ef5dd]
 - Updated dependencies [36ddec4]
-  - llamaflow@0.5.0
-  - @llamaflow/autotool@2.0.0
+  - llamaflowjs@0.5.0
+  - @llamaflowjs/autotool@2.0.0
 
 ## 0.1.24
 
 ### Patch Changes
 
-- llamaflow@0.4.14
-- @llamaflow/autotool@1.0.0
+- llamaflowjs@0.4.14
+- @llamaflowjs/autotool@1.0.0
 
 ## 0.1.23
 
@@ -39,48 +39,48 @@
 
 - Updated dependencies [e8f8bea]
 - Updated dependencies [304484b]
-  - llamaflow@0.4.13
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.13
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.22
 
 ### Patch Changes
 
 - Updated dependencies [f326ab8]
-  - llamaflow@0.4.12
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.12
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.21
 
 ### Patch Changes
 
 - Updated dependencies [8bf5b4a]
-  - llamaflow@0.4.11
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.11
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.20
 
 ### Patch Changes
 
 - Updated dependencies [7dce3d2]
-  - llamaflow@0.4.10
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.10
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.19
 
 ### Patch Changes
 
 - Updated dependencies [3a96a48]
-  - llamaflow@0.4.9
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.9
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.18
 
 ### Patch Changes
 
 - Updated dependencies [83ebdfb]
-  - llamaflow@0.4.8
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.8
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.17
 
@@ -89,8 +89,8 @@
 - Updated dependencies [41fe871]
 - Updated dependencies [321c39d]
 - Updated dependencies [f7f1af0]
-  - llamaflow@0.4.7
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.7
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.16
 
@@ -98,32 +98,32 @@
 
 - Updated dependencies [1feb23b]
 - Updated dependencies [08c55ec]
-  - llamaflow@0.4.6
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.6
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.15
 
 ### Patch Changes
 
 - Updated dependencies [6c3e5d0]
-  - llamaflow@0.4.5
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.5
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.14
 
 ### Patch Changes
 
 - Updated dependencies [42eb73a]
-  - llamaflow@0.4.4
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.4
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.13
 
 ### Patch Changes
 
 - Updated dependencies [2ef62a9]
-  - llamaflow@0.4.3
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.3
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.12
 
@@ -131,8 +131,8 @@
 
 - Updated dependencies [a87a4d1]
 - Updated dependencies [0730140]
-  - llamaflow@0.4.2
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.2
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.11
 
@@ -141,8 +141,8 @@
 - Updated dependencies [3c47910]
 - Updated dependencies [ed467a9]
 - Updated dependencies [cba5406]
-  - llamaflow@0.4.1
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.1
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.10
 
@@ -152,8 +152,8 @@
 - Updated dependencies [a44e54f]
 - Updated dependencies [a51ed8d]
 - Updated dependencies [d3b635b]
-  - llamaflow@0.4.0
-  - @llamaflow/autotool@1.0.0
+  - llamaflowjs@0.4.0
+  - @llamaflowjs/autotool@1.0.0
 
 ## 0.1.9
 
@@ -162,8 +162,8 @@
 - Updated dependencies [6bc5bdd]
 - Updated dependencies [bf25ff6]
 - Updated dependencies [e6d6576]
-  - llamaflow@0.3.17
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.17
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.8
 
@@ -179,8 +179,8 @@
 - Updated dependencies [54230f0]
 - Updated dependencies [a29d835]
 - Updated dependencies [73819bf]
-  - llamaflow@0.3.16
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.16
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.7
 
@@ -189,8 +189,8 @@
 - Updated dependencies [6e156ed]
 - Updated dependencies [265976d]
 - Updated dependencies [8e26f75]
-  - llamaflow@0.3.15
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.15
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.6
 
@@ -198,8 +198,8 @@
 
 - Updated dependencies [6ff7576]
 - Updated dependencies [94543de]
-  - llamaflow@0.3.14
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.14
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.5
 
@@ -209,16 +209,16 @@
 - Updated dependencies [37525df]
 - Updated dependencies [660a2b3]
 - Updated dependencies [a1f2475]
-  - llamaflow@0.3.13
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.13
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.4
 
 ### Patch Changes
 
 - Updated dependencies [34fb1d8]
-  - llamaflow@0.3.12
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.12
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.3
 
@@ -228,21 +228,21 @@
 - Updated dependencies [9e133ac]
 - Updated dependencies [447105a]
 - Updated dependencies [320be3f]
-  - llamaflow@0.3.11
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.11
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.2
 
 ### Patch Changes
 
 - Updated dependencies [4aba02e]
-  - llamaflow@0.3.10
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.10
+  - @llamaflowjs/autotool@0.0.1
 
 ## 0.1.1
 
 ### Patch Changes
 
 - Updated dependencies [c3747d0]
-  - llamaflow@0.3.9
-  - @llamaflow/autotool@0.0.1
+  - llamaflowjs@0.3.9
+  - @llamaflowjs/autotool@0.0.1

@@ -1,5 +1,5 @@
 {
-  "name": "@llamaflow/monorepo",
+  "name": "@llamaflowjs/monorepo",
   "private": true,
   "scripts": {
     "build": "turbo run build --filter=\"!docs\" --filter=\"!*-test\" --filter=\"!*-example\"",

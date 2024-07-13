@@ -1,4 +1,4 @@
-# llamaflow-loader-example
+# llamaflowjs-loader-example
 
 ### Patch Changes
 
@@ -8,4 +8,4 @@
 - Updated dependencies [d766bd0]
 - Updated dependencies [dd95927]
 - Updated dependencies [bf583a7]
-  - llamaflow@0.2.0
+  - llamaflowjs@0.2.0

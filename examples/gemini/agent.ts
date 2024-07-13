@@ -1,4 +1,4 @@
-import { FunctionTool, Gemini, GEMINI_MODEL, LLMAgent } from "llamaflow";
+import { FunctionTool, Gemini, GEMINI_MODEL, LLMAgent } from "llamaflowjs";
 
 const sumNumbers = FunctionTool.from(
   ({ a, b }: { a: number; b: number }) => `${a + b}`,

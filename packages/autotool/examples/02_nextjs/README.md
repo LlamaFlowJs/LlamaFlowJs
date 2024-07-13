@@ -1,4 +1,4 @@
-This is a [LlamaFlow](https://www.llamaflow.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/llamaflowTS/tree/main/packages/create-llama).
+This is a [llamaflowjs](https://www.llamaflowjs.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/llamaflowTS/tree/main/packages/create-llama).
 
 ## Getting Started
 
@@ -22,9 +22,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about LlamaFlow, take a look at the following resources:
+To learn more about llamaflowjs, take a look at the following resources:
 
-- [LlamaFlow Documentation](https://docs.llamaflow.ai) - learn about LlamaFlow (Python features).
-- [LlamaFlow Documentation](https://ts.llamaflow.ai) - learn about LlamaFlow (Typescript features).
+- [llamaflowjs Documentation](https://docs.llamaflowjs.ai) - learn about llamaflowjs (Python features).
+- [llamaflowjs Documentation](https://llamaflowjs.ai) - learn about llamaflowjs (Typescript features).
 
-You can check out [the LlamaFlow GitHub repository](https://github.com/run-llama/llamaflowTS) - your feedback and contributions are welcome!
+You can check out [the llamaflowjs GitHub repository](https://github.com/run-llama/llamaflowTS) - your feedback and contributions are welcome!

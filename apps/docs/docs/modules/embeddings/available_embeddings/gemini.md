@@ -1,9 +1,9 @@
 # Gemini
 
-To use Gemini embeddings, you need to import `GeminiEmbedding` from `llamaflow`.
+To use Gemini embeddings, you need to import `GeminiEmbedding` from `llamaflowjs`.
 
 ```ts
-import { GeminiEmbedding, Settings } from "llamaflow";
+import { GeminiEmbedding, Settings } from "llamaflowjs";
 
 // Update Embed Model
 Settings.embedModel = new GeminiEmbedding();
@@ -25,7 +25,7 @@ Per default, `GeminiEmbedding` is using the `gemini-pro` model. You can change t
 For example:
 
 ```ts
-import { GEMINI_MODEL, GeminiEmbedding } from "llamaflow";
+import { GEMINI_MODEL, GeminiEmbedding } from "llamaflowjs";
 
 Settings.embedModel = new GeminiEmbedding({
   model: GEMINI_MODEL.GEMINI_PRO_LATEST,

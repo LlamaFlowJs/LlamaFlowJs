@@ -18,7 +18,7 @@ import {
   QuestionsAnsweredExtractor,
   Document,
   OpenAI,
-} from "llamaflow";
+} from "llamaflowjs";
 
 async function main() {
   const pipeline = new IngestionPipeline({

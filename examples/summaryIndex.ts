@@ -4,7 +4,7 @@ import {
   SimpleNodeParser,
   SummaryIndex,
   SummaryRetrieverMode,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import essay from "./essay";
 

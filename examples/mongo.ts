@@ -1,4 +1,4 @@
-import { Document, SimpleMongoReader, VectorStoreIndex } from "llamaflow";
+import { Document, SimpleMongoReader, VectorStoreIndex } from "llamaflowjs";
 import { MongoClient } from "mongodb";
 
 import { stdin as input, stdout as output } from "node:process";

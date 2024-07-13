@@ -2,7 +2,7 @@ import {
   LlamaParseReader,
   SimpleDirectoryReader,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 async function main() {
   const reader = new SimpleDirectoryReader();

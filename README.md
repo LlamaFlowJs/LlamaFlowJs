@@ -1,27 +1,27 @@
-# LlamaFlow
+# llamaflowjs
 
-[![NPM Version](https://img.shields.io/npm/v/LlamaFlow)](https://www.npmjs.com/package/LlamaFlow)
-[![NPM License](https://img.shields.io/npm/l/LlamaFlow)](https://www.npmjs.com/package/LlamaFlow)
-[![NPM Downloads](https://img.shields.io/npm/dm/LlamaFlow)](https://www.npmjs.com/package/LlamaFlow)
+[![NPM Version](https://img.shields.io/npm/v/llamaflowjs)](https://www.npmjs.com/package/llamaflowjs)
+[![NPM License](https://img.shields.io/npm/l/llamaflowjs)](https://www.npmjs.com/package/llamaflowjs)
+[![NPM Downloads](https://img.shields.io/npm/dm/llamaflowjs)](https://www.npmjs.com/package/llamaflowjs)
 [![Discord](https://img.shields.io/discord/1059199217496772688)](https://discord.com/invite/eN6D2HQ4aX)
 
-LlamaFlow is a framework that has inbuilt agentic workflows,reiterative reflection and llm review system making it a true framework for llm applications
+llamaflowjs is a framework that has inbuilt agentic workflows,reiterative reflection and llm review system making it a true framework for llm applications
 
-LlamaFlow is built on top of LlamaFlow
+llamaflowjs is built on top of llamaflowjs
 
-- LlamaFlow will be carried out as an independent Project.
+- llamaflowjs will be carried out as an independent Project.
 - Focused on building the true agentic workflow that provides built-in solution towards reiterative reflection and review of llm prompts
   Use your own data with large language models (LLMs, OpenAI ChatGPT and others) in Typescript and Javascript.
 
-Documentation: https://ts.LlamaFlow.ai/
+Documentation: https://llamaflowjs.ai/
 
-## What is LlamaFlow?
+## What is llamaflowjs?
 
-LlamaFlow aims to be a lightweight, easy to use set of libraries to help you integrate large language models into your applications with your own data.
+llamaflowjs aims to be a lightweight, easy to use set of libraries to help you integrate large language models into your applications with your own data.
 
 ## Multiple JS Environment Support
 
-LlamaFlow supports multiple JS environments, including:
+llamaflowjs supports multiple JS environments, including:
 
 - Node.js (18, 20, 22) ✅
 - Deno ✅
@@ -33,22 +33,22 @@ For now, browser support is limited due to the lack of support for [AsyncLocalSt
 ## Getting started
 
 ```shell
-npm install LlamaFlow
-pnpm install LlamaFlow
-yarn add LlamaFlow
-jsr install @llamaflow/core
+npm install llamaflowjs
+pnpm install llamaflowjs
+yarn add llamaflowjs
+jsr install @llamaflowjs/core
 ```
 
 ### Node.js
 
 ```ts
 import fs from "fs/promises";
-import { Document, VectorStoreIndex } from "llamaflow";
+import { Document, VectorStoreIndex } from "llamaflowjs";
 
 async function main() {
   // Load essay from abramov.txt in Node
   const essay = await fs.readFile(
-    "node_modules/LlamaFlow/examples/abramov.txt",
+    "node_modules/llamaflowjs/examples/abramov.txt",
     "utf-8",
   );
 
@@ -78,23 +78,23 @@ node --import tsx ./main.ts
 
 ## Core concepts for getting started:
 
-- [Document](/packages/LlamaFlow/src/Node.ts): A document represents a text file, PDF file or other contiguous piece of data.
+- [Document](/packages/llamaflowjs/src/Node.ts): A document represents a text file, PDF file or other contiguous piece of data.
 
-- [Node](/packages/LlamaFlow/src/Node.ts): The basic data building block. Most commonly, these are parts of the document split into manageable pieces that are small enough to be fed into an embedding model and LLM.
+- [Node](/packages/llamaflowjs/src/Node.ts): The basic data building block. Most commonly, these are parts of the document split into manageable pieces that are small enough to be fed into an embedding model and LLM.
 
-- [Embedding](/packages/LlamaFlow/src/embeddings/OpenAIEmbedding.ts): Embeddings are sets of floating point numbers which represent the data in a Node. By comparing the similarity of embeddings, we can derive an understanding of the similarity of two pieces of data. One use case is to compare the embedding of a question with the embeddings of our Nodes to see which Nodes may contain the data needed to answer that quesiton. Because the default service context is OpenAI, the default embedding is `OpenAIEmbedding`. If using different models, say through Ollama, use this [Embedding](/packages/LlamaFlow/src/embeddings/OllamaEmbedding.ts) (see all [here](/packages/LlamaFlow/src/embeddings)).
+- [Embedding](/packages/llamaflowjs/src/embeddings/OpenAIEmbedding.ts): Embeddings are sets of floating point numbers which represent the data in a Node. By comparing the similarity of embeddings, we can derive an understanding of the similarity of two pieces of data. One use case is to compare the embedding of a question with the embeddings of our Nodes to see which Nodes may contain the data needed to answer that quesiton. Because the default service context is OpenAI, the default embedding is `OpenAIEmbedding`. If using different models, say through Ollama, use this [Embedding](/packages/llamaflowjs/src/embeddings/OllamaEmbedding.ts) (see all [here](/packages/llamaflowjs/src/embeddings)).
 
-- [Indices](/packages/LlamaFlow/src/indices/): Indices store the Nodes and the embeddings of those nodes. QueryEngines retrieve Nodes from these Indices using embedding similarity.
+- [Indices](/packages/llamaflowjs/src/indices/): Indices store the Nodes and the embeddings of those nodes. QueryEngines retrieve Nodes from these Indices using embedding similarity.
 
-- [QueryEngine](/packages/LlamaFlow/src/engines/query/RetrieverQueryEngine.ts): Query engines are what generate the query you put in and give you back the result. Query engines generally combine a pre-built prompt with selected Nodes from your Index to give the LLM the context it needs to answer your query. To build a query engine from your Index (recommended), use the [`asQueryEngine`](/packages/LlamaFlow/src/indices/BaseIndex.ts) method on your Index. See all query engines [here](/packages/LlamaFlow/src/engines/query).
+- [QueryEngine](/packages/llamaflowjs/src/engines/query/RetrieverQueryEngine.ts): Query engines are what generate the query you put in and give you back the result. Query engines generally combine a pre-built prompt with selected Nodes from your Index to give the LLM the context it needs to answer your query. To build a query engine from your Index (recommended), use the [`asQueryEngine`](/packages/llamaflowjs/src/indices/BaseIndex.ts) method on your Index. See all query engines [here](/packages/llamaflowjs/src/engines/query).
 
-- [ChatEngine](/packages/LlamaFlow/src/engines/chat/SimpleChatEngine.ts): A ChatEngine helps you build a chatbot that will interact with your Indices. See all chat engines [here](/packages/LlamaFlow/src/engines/chat).
+- [ChatEngine](/packages/llamaflowjs/src/engines/chat/SimpleChatEngine.ts): A ChatEngine helps you build a chatbot that will interact with your Indices. See all chat engines [here](/packages/llamaflowjs/src/engines/chat).
 
-- [SimplePrompt](/packages/LlamaFlow/src/Prompt.ts): A simple standardized function call definition that takes in inputs and formats them in a template literal. SimplePrompts can be specialized using currying and combined using other SimplePrompt functions.
+- [SimplePrompt](/packages/llamaflowjs/src/Prompt.ts): A simple standardized function call definition that takes in inputs and formats them in a template literal. SimplePrompts can be specialized using currying and combined using other SimplePrompt functions.
 
 ## Tips when using in non-Node.js environments
 
-When you are importing `LlamaFlow` in a non-Node.js environment(such as React Server Components, Cloudflare Workers, etc.)
+When you are importing `llamaflowjs` in a non-Node.js environment(such as React Server Components, Cloudflare Workers, etc.)
 Some classes are not exported from top-level entry file.
 
 The reason is that some classes are only compatible with Node.js runtime,(e.g. `PDFReader`) which uses Node.js specific APIs(like `fs`, `child_process`, `crypto`).
@@ -103,14 +103,14 @@ If you need any of those classes, you have to import them instead directly thoug
 Here's an example for importing the `PineconeVectorStore` class:
 
 ```typescript
-import { PineconeVectorStore } from "LlamaFlow/storage/vectorStore/PineconeVectorStore";
+import { PineconeVectorStore } from "llamaflowjs/storage/vectorStore/PineconeVectorStore";
 ```
 
 As the `PDFReader` is not working with the Edge runtime, here's how to use the `SimpleDirectoryReader` with the `LlamaParseReader` to load PDFs:
 
 ```typescript
-import { SimpleDirectoryReader } from "LlamaFlow/readers/SimpleDirectoryReader";
-import { LlamaParseReader } from "LlamaFlow/readers/LlamaParseReader";
+import { SimpleDirectoryReader } from "llamaflowjs/readers/SimpleDirectoryReader";
+import { LlamaParseReader } from "llamaflowjs/readers/LlamaParseReader";
 
 export const DATA_DIR = "./data";
 
@@ -128,7 +128,7 @@ export async function getDocuments() {
 
 > _Note_: Reader classes have to be added explictly to the `fileExtToReader` map in the Edge version of the `SimpleDirectoryReader`.
 
-You'll find a complete example with LlamaFlow here: https://github.com/run-llama/create_llama_projects/tree/main/nextjs-edge-llamaparse
+You'll find a complete example with llamaflowjs here: https://github.com/run-llama/create_llama_projects/tree/main/nextjs-edge-llamaparse
 
 ## Supported LLMs:
 
@@ -141,8 +141,8 @@ You'll find a complete example with LlamaFlow here: https://github.com/run-llama
 
 ## Contributing:
 
-We are in the very early days of LlamaFlow. If you’re interested in hacking on it with us check out our [contributing guide](/CONTRIBUTING.md)
+We are in the very early days of llamaflowjs. If you’re interested in hacking on it with us check out our [contributing guide](/CONTRIBUTING.md)
 
 ## Bugs? Questions?
 
-Please join our Discord! https://discord.com/invite/llamaflow
+Please join our Discord! https://discord.com/invite/llamaflowjs

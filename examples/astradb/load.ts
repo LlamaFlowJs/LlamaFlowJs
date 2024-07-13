@@ -3,7 +3,7 @@ import {
   PapaCSVReader,
   storageContextFromDefaults,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const collectionName = "movie_reviews";
 

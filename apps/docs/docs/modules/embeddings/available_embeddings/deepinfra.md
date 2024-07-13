@@ -1,6 +1,6 @@
 # DeepInfra
 
-To use DeepInfra embeddings, you need to import `DeepInfraEmbedding` from llamaflow.
+To use DeepInfra embeddings, you need to import `DeepInfraEmbedding` from llamaflowjs.
 Check out available embedding models [here](https://deepinfra.com/models/embeddings).
 
 ```ts
@@ -9,7 +9,7 @@ import {
   Settings,
   Document,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Update Embed Model
 Settings.embedModel = new DeepInfraEmbedding();
@@ -31,7 +31,7 @@ By default, DeepInfraEmbedding is using the sentence-transformers/clip-ViT-B-32 
 For example:
 
 ```ts
-import { DeepInfraEmbedding } from "llamaflow";
+import { DeepInfraEmbedding } from "llamaflowjs";
 
 const model = "intfloat/e5-large-v2";
 Settings.embedModel = new DeepInfraEmbedding({
@@ -44,7 +44,7 @@ You can also set the `maxRetries` and `timeout` parameters when initializing `De
 For example:
 
 ```ts
-import { DeepInfraEmbedding, Settings } from "llamaflow";
+import { DeepInfraEmbedding, Settings } from "llamaflowjs";
 
 const model = "intfloat/e5-large-v2";
 const maxRetries = 5;
@@ -60,7 +60,7 @@ Settings.embedModel = new DeepInfraEmbedding({
 Standalone usage:
 
 ```ts
-import { DeepInfraEmbedding } from "llamaflow";
+import { DeepInfraEmbedding } from "llamaflowjs";
 import { config } from "dotenv";
 // For standalone usage, you need to configure DEEPINFRA_API_TOKEN in .env file
 config();

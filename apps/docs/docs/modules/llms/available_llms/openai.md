@@ -1,7 +1,7 @@
 # OpenAI
 
 ```ts
-import { OpenAI, Settings } from "llamaflow";
+import { OpenAI, Settings } from "llamaflowjs";
 
 Settings.llm = new OpenAI({ model: "gpt-3.5-turbo", temperature: 0, apiKey: <YOUR_API_KEY> });
 ```
@@ -37,7 +37,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { OpenAI, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { OpenAI, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 // Use the OpenAI LLM
 Settings.llm = new OpenAI({ model: "gpt-3.5-turbo", temperature: 0 });

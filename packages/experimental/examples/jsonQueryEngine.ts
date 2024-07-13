@@ -1,6 +1,6 @@
-import { JSONQueryEngine } from "@llamaflow/experimental";
+import { JSONQueryEngine } from "@llamaflowjs/experimental";
 
-import { OpenAI, Settings } from "llamaflow";
+import { OpenAI, Settings } from "llamaflowjs";
 
 // Update LLM
 Settings.llm = new OpenAI({ model: "gpt-4" });

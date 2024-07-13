@@ -10,7 +10,7 @@
   "include": ["./src"],
   "references": [
     {
-      "path": "../llamaflow/tsconfig.json"
+      "path": "../llamaflowjs/tsconfig.json"
     },
     {
       "path": "../env/tsconfig.json"

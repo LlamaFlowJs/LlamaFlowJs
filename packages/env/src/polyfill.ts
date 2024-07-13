@@ -1,5 +1,5 @@
 /**
- * Polyfill implementation for `@llamaflow/env`.
+ * Polyfill implementation for `@llamaflowjs/env`.
  *
  * The code should be compatible with any JS runtime.
  *

@@ -1,4 +1,4 @@
-import { PineconeVectorStore, VectorStoreIndex } from "llamaflow";
+import { PineconeVectorStore, VectorStoreIndex } from "llamaflowjs";
 
 async function main() {
   const readline = require("readline").createInterface({

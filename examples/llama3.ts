@@ -1,4 +1,4 @@
-import { ReplicateLLM } from "llamaflow";
+import { ReplicateLLM } from "llamaflowjs";
 
 (async () => {
   const tres = new ReplicateLLM({ model: "llama-3-70b-instruct" });

@@ -6,7 +6,7 @@ import {
   TogetherEmbedding,
   TogetherLLM,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Update llm to use TogetherAI
 Settings.llm = new TogetherLLM({
@@ -21,7 +21,7 @@ async function main() {
   if (!apiKey) {
     throw new Error("Missing TOGETHER_API_KEY");
   }
-  const path = require.resolve("llamaflow/examples/abramov.txt");
+  const path = require.resolve("llamaflowjs/examples/abramov.txt");
   const essay = await fs.readFile(path, "utf-8");
 
   const document = new Document({ text: essay, id_: path });

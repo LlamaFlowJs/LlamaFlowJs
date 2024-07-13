@@ -4,16 +4,16 @@ import CodeSource2 from "!raw-loader!../../../../../../examples/readers/src/simp
 
 # LlamaParse
 
-LlamaParse is an API created by LlamaFlow to efficiently parse files, e.g. it's great at converting PDF tables into markdown.
+LlamaParse is an API created by llamaflowjs to efficiently parse files, e.g. it's great at converting PDF tables into markdown.
 
-To use it, first login and get an API key from https://cloud.llamaflow.ai. Make sure to store the key as `apiKey` parameter or in the environment variable `LLAMA_CLOUD_API_KEY`.
+To use it, first login and get an API key from https://cloud.llamaflowjs.ai. Make sure to store the key as `apiKey` parameter or in the environment variable `LLAMA_CLOUD_API_KEY`.
 
-Official documentation for LlamaParse can be found [here](https://docs.cloud.llamaflow.ai/).
+Official documentation for LlamaParse can be found [here](https://docs.cloud.llamaflowjs.ai/).
 
 ## Usage
 
-You can then use the `LlamaParseReader` class to load local files and convert them into a parsed document that can be used by LlamaFlow.
-See [LlamaParseReader.ts](https://github.com/run-llama/llamaflowTS/blob/main/packages/llamaflow/src/readers/LlamaParseReader.ts) for a list of supported file types:
+You can then use the `LlamaParseReader` class to load local files and convert them into a parsed document that can be used by llamaflowjs.
+See [LlamaParseReader.ts](https://github.com/run-llama/llamaflowTS/blob/main/packages/llamaflowjs/src/readers/LlamaParseReader.ts) for a list of supported file types:
 
 <CodeBlock language="ts">{CodeSource}</CodeBlock>
 
@@ -35,7 +35,7 @@ They can be divided into two groups.
 
 - `resultType` can be set to `markdown`, `text` or `json`. Defaults to `text`. More information about `json` mode on the next pages.
 - `language` primarily helps with OCR recognition. Defaults to `en`. Click [here](../../../api/type-aliases/Language.md) for a list of supported languages.
-- `parsingInstructions?` Optional. Can help with complicated document structures. See this [LlamaFlow Blog Post](https://www.llamaflow.ai/blog/launching-the-first-genai-native-document-parsing-platform) for an example.
+- `parsingInstructions?` Optional. Can help with complicated document structures. See this [llamaflowjs Blog Post](https://www.llamaflowjs.ai/blog/launching-the-first-genai-native-document-parsing-platform) for an example.
 - `skipDiagonalText?` Optional. Set to true to ignore diagonal text. (Text that is not rotated 0, 90, 180 or 270 degrees)
 - `invalidateCache?` Optional. Set to true to ignore the LlamaCloud cache. All document are kept in cache for 48hours after the job was completed to avoid processing the same document twice. Can be useful for testing when trying to re-parse the same document with, e.g. different `parsingInstructions`.
 - `doNotCache?` Optional. Set to true to not cache the document.

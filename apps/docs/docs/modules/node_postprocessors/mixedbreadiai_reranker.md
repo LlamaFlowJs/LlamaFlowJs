@@ -7,16 +7,16 @@ To find out more about the latest features and updates, visit the [mixedbread.ai
 ## Table of Contents
 
 1. [Setup](#setup)
-2. [Usage with LlamaFlow](#integration-with-llamaflow)
+2. [Usage with llamaflowjs](#integration-with-llamaflowjs)
 3. [Simple Reranking Guide](#simple-reranking-guide)
 4. [Reranking with Objects](#reranking-with-objects)
 
 ## Setup
 
-First, you will need to install the `llamaflow` package.
+First, you will need to install the `llamaflowjs` package.
 
 ```bash
-pnpm install llamaflow
+pnpm install llamaflowjs
 ```
 
 Next, sign up for an API key at [mixedbread.ai](https://mixedbread.ai/). Once you have your API key, you can import the necessary modules and create a new instance of the `MixedbreadAIReranker` class.
@@ -28,12 +28,12 @@ import {
   OpenAI,
   VectorStoreIndex,
   Settings,
-} from "llamaflow";
+} from "llamaflowjs";
 ```
 
-## Usage with LlamaFlow
+## Usage with llamaflowjs
 
-This section will guide you through integrating mixedbread's reranker with LlamaFlow.
+This section will guide you through integrating mixedbread's reranker with llamaflowjs.
 
 ### Step 1: Load and Index Documents
 

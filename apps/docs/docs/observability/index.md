@@ -1,11 +1,11 @@
 # Observability
 
-LlamaFlow provides **one-click observability** 🔭 to allow you to build principled LLM applications in a production setting.
+llamaflowjs provides **one-click observability** 🔭 to allow you to build principled LLM applications in a production setting.
 
 A key requirement for principled development of LLM applications over your data (RAG systems, agents) is being able to observe, debug, and evaluate
 your system - both as a whole and for each component.
 
-This feature allows you to seamlessly integrate the LlamaFlow library with powerful observability/evaluation tools offered by our partners.
+This feature allows you to seamlessly integrate the llamaflowjs library with powerful observability/evaluation tools offered by our partners.
 Configure a variable once, and you'll be able to do things like the following:
 
 - View LLM/prompt inputs/outputs
@@ -39,7 +39,7 @@ traceloop.initialize({
 
 ## Langtrace
 
-Enhance your observability with Langtrace, a robust open-source tool supports OpenTelemetry and is designed to trace, evaluate, and manage LLM applications seamlessly. Langtrace integrates directly with LlamaFlow, offering detailed, real-time insights into performance metrics such as accuracy, evaluations, and latency.
+Enhance your observability with Langtrace, a robust open-source tool supports OpenTelemetry and is designed to trace, evaluate, and manage LLM applications seamlessly. Langtrace integrates directly with llamaflowjs, offering detailed, real-time insights into performance metrics such as accuracy, evaluations, and latency.
 
 #### Install
 

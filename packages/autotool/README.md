@@ -1,4 +1,4 @@
-# @llamaflow/autotool
+# @llamaflowjs/autotool
 
 > Auto transpile your JS function to LLM Agent compatible
 
@@ -7,9 +7,9 @@
 First, Install the package
 
 ```shell
-npm install @llamaflow/autotool
-pnpm add @llamaflow/autotool
-yarn add @llamaflow/autotool
+npm install @llamaflowjs/autotool
+pnpm add @llamaflowjs/autotool
+yarn add @llamaflowjs/autotool
 ```
 
 Second, Add the plugin/loader to your configuration:
@@ -17,7 +17,7 @@ Second, Add the plugin/loader to your configuration:
 ### Next.js
 
 ```javascript
-import { withNext } from "@llamaflow/autotool/next";
+import { withNext } from "@llamaflowjs/autotool/next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
@@ -28,7 +28,7 @@ export default withNext(nextConfig);
 ### Node.js
 
 ```shell
-node --import @llamaflow/autotool/node ./path/to/your/script.js
+node --import @llamaflowjs/autotool/node ./path/to/your/script.js
 ```
 
 Third, add `"use tool"` on top of your tool file or change to `.tool.ts`.
@@ -42,7 +42,7 @@ export function getWeather(city: string) {
 // ...
 ```
 
-Finally, export a chat handler function to the frontend using `llamaflow` Agent
+Finally, export a chat handler function to the frontend using `llamaflowjs` Agent
 
 ```typescript
 "use server";
@@ -51,7 +51,7 @@ Finally, export a chat handler function to the frontend using `llamaflow` Agent
 
 export async function chatWithAI(message: string): Promise<JSX.Element> {
   const agent = new OpenAIAgent({
-    tools: convertTools("llamaflow"),
+    tools: convertTools("llamaflowjs"),
   });
   const uiStream = createStreamableUI();
   agent

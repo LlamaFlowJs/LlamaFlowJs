@@ -1,4 +1,4 @@
-import { Document, TextNode } from "@llamaflow/core/schema";
+import { Document, TextNode } from "@llamaflowjs/core/schema";
 import { beforeEach, describe, expect, test } from "vitest";
 
 describe("Document", () => {

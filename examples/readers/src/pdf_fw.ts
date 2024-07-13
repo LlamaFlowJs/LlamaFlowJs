@@ -1,7 +1,11 @@
-import { FireworksEmbedding, FireworksLLM, VectorStoreIndex } from "llamaflow";
-import { PDFReader } from "llamaflow/readers/PDFReader";
+import {
+  FireworksEmbedding,
+  FireworksLLM,
+  VectorStoreIndex,
+} from "llamaflowjs";
+import { PDFReader } from "llamaflowjs/readers/PDFReader";
 
-import { Settings } from "llamaflow";
+import { Settings } from "llamaflowjs";
 
 Settings.llm = new FireworksLLM({
   model: "accounts/fireworks/models/mixtral-8x7b-instruct",

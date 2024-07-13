@@ -1,7 +1,7 @@
-# LlamaFlow Examples
+# llamaflowjs Examples
 
 Before running any of the code examples,
-make sure you have basic knowledge of the [LlamaFlow](https://ts.llamaflow.ai/).
+make sure you have basic knowledge of the [llamaflowjs](https://llamaflowjs.ai/).
 
 ## Usage
 

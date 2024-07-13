@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { Ollama, Settings, DeuceChatStrategy } from "llamaflow";
+import { Ollama, Settings, DeuceChatStrategy } from "llamaflowjs";
 
 Settings.llm = new LlamaDeuce({ chatStrategy: DeuceChatStrategy.META });
 ```
@@ -16,7 +16,7 @@ import {
   ReplicateSession,
   Settings,
   DeuceChatStrategy,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const replicateSession = new ReplicateSession({
   replicateKey,
@@ -59,7 +59,7 @@ import {
   VectorStoreIndex,
   Settings,
   DeuceChatStrategy,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Use the LlamaDeuce LLM
 Settings.llm = new LlamaDeuce({ chatStrategy: DeuceChatStrategy.META });

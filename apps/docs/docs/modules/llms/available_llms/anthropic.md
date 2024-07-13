@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { Anthropic, Settings } from "llamaflow";
+import { Anthropic, Settings } from "llamaflowjs";
 
 Settings.llm = new Anthropic({
   apiKey: "<YOUR_API_KEY>",
@@ -35,7 +35,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { Anthropic, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { Anthropic, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 Settings.llm = new Anthropic({
   apiKey: "<YOUR_API_KEY>",

@@ -4,10 +4,10 @@ sidebar_position: 4
 
 # NodeParser
 
-The `NodeParser` in LlamaFlow is responsible for splitting `Document` objects into more manageable `Node` objects. When you call `.fromDocuments()`, the `NodeParser` from the `Settings` is used to do this automatically for you. Alternatively, you can use it to split documents ahead of time.
+The `NodeParser` in llamaflowjs is responsible for splitting `Document` objects into more manageable `Node` objects. When you call `.fromDocuments()`, the `NodeParser` from the `Settings` is used to do this automatically for you. Alternatively, you can use it to split documents ahead of time.
 
 ```typescript
-import { Document, SimpleNodeParser } from "llamaflow";
+import { Document, SimpleNodeParser } from "llamaflowjs";
 
 const nodeParser = new SimpleNodeParser();
 
@@ -19,7 +19,7 @@ Settings.nodeParser = nodeParser;
 The underlying text splitter will split text by sentences. It can also be used as a standalone module for splitting raw text.
 
 ```typescript
-import { SentenceSplitter } from "llamaflow";
+import { SentenceSplitter } from "llamaflowjs";
 
 const splitter = new SentenceSplitter({ chunkSize: 1 });
 
@@ -31,7 +31,7 @@ const textSplits = splitter.splitText("Hello World");
 The `MarkdownNodeParser` is a more advanced `NodeParser` that can handle markdown documents. It will split the markdown into nodes and then parse the nodes into a `Document` object.
 
 ```typescript
-import { MarkdownNodeParser } from "llamaflow";
+import { MarkdownNodeParser } from "llamaflowjs";
 
 const nodeParser = new MarkdownNodeParser();
 

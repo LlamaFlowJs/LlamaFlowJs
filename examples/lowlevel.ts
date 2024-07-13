@@ -4,7 +4,7 @@ import {
   ResponseSynthesizer,
   SimpleNodeParser,
   TextNode,
-} from "llamaflow";
+} from "llamaflowjs";
 
 (async () => {
   const nodeParser = new SimpleNodeParser();

@@ -1,4 +1,4 @@
-import { storageContextFromDefaults } from "llamaflow";
+import { storageContextFromDefaults } from "llamaflowjs";
 
 // set up store context with two vector stores, one for text, the other for images
 export async function getStorageContext() {

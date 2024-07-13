@@ -1,4 +1,4 @@
-import { DeepInfraEmbedding } from "llamaflow";
+import { DeepInfraEmbedding } from "llamaflowjs";
 
 async function main() {
   // API token can be provided as an environment variable too

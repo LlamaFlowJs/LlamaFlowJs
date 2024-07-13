@@ -1,6 +1,6 @@
 /* eslint-disable turbo/no-undeclared-env-vars */
 import * as dotenv from "dotenv";
-import { MongoDBAtlasVectorSearch, VectorStoreIndex } from "llamaflow";
+import { MongoDBAtlasVectorSearch, VectorStoreIndex } from "llamaflowjs";
 import { MongoClient } from "mongodb";
 
 // Load environment variables from local .env file

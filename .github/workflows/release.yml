@@ -38,7 +38,7 @@ jobs:
         id: get-changeset-status
         run: |
           pnpm changeset status --output .changeset/status.json
-          new_version=$(jq -r '.releases[] | select(.name == "llamaflow") | .newVersion' < .changeset/status.json)
+          new_version=$(jq -r '.releases[] | select(.name == "llamaflowjs") | .newVersion' < .changeset/status.json)
           rm -v .changeset/status.json
           echo "new-version=${new_version}" >> "$GITHUB_OUTPUT"
 

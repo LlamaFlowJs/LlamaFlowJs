@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- llamaflow@0.5.2
+- llamaflowjs@0.5.2
 
 ## 0.0.42
 
@@ -13,7 +13,7 @@
 - 2774681: Add mixedbread's embeddings and reranking API
 - Updated dependencies [2774681]
 - Updated dependencies [a0f424e]
-  - llamaflow@0.5.1
+  - llamaflowjs@0.5.1
 
 ## 0.0.41
 
@@ -23,14 +23,14 @@
 - Updated dependencies [16ef5dd]
 - Updated dependencies [16ef5dd]
 - Updated dependencies [36ddec4]
-  - llamaflow@0.5.0
-  - @llamaflow/examples@0.0.7
+  - llamaflowjs@0.5.0
+  - @llamaflowjs/examples@0.0.7
 
 ## 0.0.40
 
 ### Patch Changes
 
-- llamaflow@0.4.14
+- llamaflowjs@0.4.14
 
 ## 0.0.39
 
@@ -38,42 +38,42 @@
 
 - Updated dependencies [e8f8bea]
 - Updated dependencies [304484b]
-  - llamaflow@0.4.13
+  - llamaflowjs@0.4.13
 
 ## 0.0.38
 
 ### Patch Changes
 
 - Updated dependencies [f326ab8]
-  - llamaflow@0.4.12
+  - llamaflowjs@0.4.12
 
 ## 0.0.37
 
 ### Patch Changes
 
 - Updated dependencies [8bf5b4a]
-  - llamaflow@0.4.11
+  - llamaflowjs@0.4.11
 
 ## 0.0.36
 
 ### Patch Changes
 
 - Updated dependencies [7dce3d2]
-  - llamaflow@0.4.10
+  - llamaflowjs@0.4.10
 
 ## 0.0.35
 
 ### Patch Changes
 
 - Updated dependencies [3a96a48]
-  - llamaflow@0.4.9
+  - llamaflowjs@0.4.9
 
 ## 0.0.34
 
 ### Patch Changes
 
 - Updated dependencies [83ebdfb]
-  - llamaflow@0.4.8
+  - llamaflowjs@0.4.8
 
 ## 0.0.33
 
@@ -82,7 +82,7 @@
 - Updated dependencies [41fe871]
 - Updated dependencies [321c39d]
 - Updated dependencies [f7f1af0]
-  - llamaflow@0.4.7
+  - llamaflowjs@0.4.7
 
 ## 0.0.32
 
@@ -90,29 +90,29 @@
 
 - Updated dependencies [1feb23b]
 - Updated dependencies [08c55ec]
-  - llamaflow@0.4.6
+  - llamaflowjs@0.4.6
 
 ## 0.0.31
 
 ### Patch Changes
 
 - Updated dependencies [6c3e5d0]
-  - llamaflow@0.4.5
+  - llamaflowjs@0.4.5
 
 ## 0.0.30
 
 ### Patch Changes
 
 - Updated dependencies [42eb73a]
-  - llamaflow@0.4.4
+  - llamaflowjs@0.4.4
 
 ## 0.0.29
 
 ### Patch Changes
 
 - Updated dependencies [2ef62a9]
-  - llamaflow@0.4.3
-  - @llamaflow/examples@0.0.6
+  - llamaflowjs@0.4.3
+  - @llamaflowjs/examples@0.0.6
 
 ## 0.0.28
 
@@ -120,7 +120,7 @@
 
 - Updated dependencies [a87a4d1]
 - Updated dependencies [0730140]
-  - llamaflow@0.4.2
+  - llamaflowjs@0.4.2
 
 ## 0.0.27
 
@@ -129,7 +129,7 @@
 - Updated dependencies [3c47910]
 - Updated dependencies [ed467a9]
 - Updated dependencies [cba5406]
-  - llamaflow@0.4.1
+  - llamaflowjs@0.4.1
 
 ## 0.0.26
 
@@ -140,8 +140,8 @@
 - Updated dependencies [a44e54f]
 - Updated dependencies [a51ed8d]
 - Updated dependencies [d3b635b]
-  - llamaflow@0.4.0
-  - @llamaflow/examples@0.0.5
+  - llamaflowjs@0.4.0
+  - @llamaflowjs/examples@0.0.5
 
 ## 0.0.25
 
@@ -150,7 +150,7 @@
 - Updated dependencies [6bc5bdd]
 - Updated dependencies [bf25ff6]
 - Updated dependencies [e6d6576]
-  - llamaflow@0.3.17
+  - llamaflowjs@0.3.17
 
 ## 0.0.24
 
@@ -169,7 +169,7 @@
 - Updated dependencies [54230f0]
 - Updated dependencies [a29d835]
 - Updated dependencies [73819bf]
-  - llamaflow@0.3.16
+  - llamaflowjs@0.3.16
 
 ## 0.0.23
 
@@ -178,7 +178,7 @@
 - Updated dependencies [6e156ed]
 - Updated dependencies [265976d]
 - Updated dependencies [8e26f75]
-  - llamaflow@0.3.15
+  - llamaflowjs@0.3.15
 
 ## 0.0.22
 
@@ -186,7 +186,7 @@
 
 - Updated dependencies [6ff7576]
 - Updated dependencies [94543de]
-  - llamaflow@0.3.14
+  - llamaflowjs@0.3.14
 
 ## 0.0.21
 
@@ -196,14 +196,14 @@
 - Updated dependencies [37525df]
 - Updated dependencies [660a2b3]
 - Updated dependencies [a1f2475]
-  - llamaflow@0.3.13
+  - llamaflowjs@0.3.13
 
 ## 0.0.20
 
 ### Patch Changes
 
 - Updated dependencies [34fb1d8]
-  - llamaflow@0.3.12
+  - llamaflowjs@0.3.12
 
 ## 0.0.19
 
@@ -213,28 +213,28 @@
 - Updated dependencies [9e133ac]
 - Updated dependencies [447105a]
 - Updated dependencies [320be3f]
-  - llamaflow@0.3.11
+  - llamaflowjs@0.3.11
 
 ## 0.0.18
 
 ### Patch Changes
 
 - Updated dependencies [4aba02e]
-  - llamaflow@0.3.10
+  - llamaflowjs@0.3.10
 
 ## 0.0.17
 
 ### Patch Changes
 
 - Updated dependencies [c3747d0]
-  - llamaflow@0.3.9
+  - llamaflowjs@0.3.9
 
 ## 0.0.16
 
 ### Patch Changes
 
 - Updated dependencies [ce94780]
-  - llamaflow@0.3.8
+  - llamaflowjs@0.3.8
 
 ## 0.0.15
 
@@ -242,14 +242,14 @@
 
 - Updated dependencies [b6a6606]
 - Updated dependencies [b6a6606]
-  - llamaflow@0.3.7
+  - llamaflowjs@0.3.7
 
 ## 0.0.14
 
 ### Patch Changes
 
 - Updated dependencies [efa326a]
-  - llamaflow@0.3.6
+  - llamaflowjs@0.3.6
 
 ## 0.0.13
 
@@ -260,7 +260,7 @@
 - Updated dependencies [5596e31]
 - Updated dependencies [e74fe88]
 - Updated dependencies [be5df5b]
-  - llamaflow@0.3.5
+  - llamaflowjs@0.3.5
 
 ## 0.0.12
 
@@ -272,49 +272,49 @@
 - Updated dependencies [5e61934]
 - Updated dependencies [9e74a43]
 - Updated dependencies [ee719a1]
-  - llamaflow@0.3.4
+  - llamaflowjs@0.3.4
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [e8c41c5]
-  - llamaflow@0.3.3
+  - llamaflowjs@0.3.3
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [61103b6]
-  - llamaflow@0.3.2
+  - llamaflowjs@0.3.2
 
 ## 0.0.9
 
 ### Patch Changes
 
 - Updated dependencies [46227f2]
-  - llamaflow@0.3.1
+  - llamaflowjs@0.3.1
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [5016f21]
-  - llamaflow@0.3.0
+  - llamaflowjs@0.3.0
 
 ## 0.0.7
 
 ### Patch Changes
 
 - Updated dependencies [6277105]
-  - llamaflow@0.2.13
+  - llamaflowjs@0.2.13
 
 ## 0.0.6
 
 ### Patch Changes
 
 - Updated dependencies [d8d952d]
-  - llamaflow@0.2.12
+  - llamaflowjs@0.2.12
 
 ## 0.0.5
 
@@ -323,22 +323,22 @@
 - Updated dependencies [87142b2]
 - Updated dependencies [5a6cc0e]
 - Updated dependencies [87142b2]
-  - llamaflow@0.2.11
+  - llamaflowjs@0.2.11
 
 ## 0.0.4
 
 ### Patch Changes
 
 - Updated dependencies [5116ad8]
-  - @llamaflow/env@0.0.5
+  - @llamaflowjs/env@0.0.5
 
 ## 0.0.3
 
 ### Patch Changes
 
-- 09bf27a: Add Groq LLM to LlamaFlow
+- 09bf27a: Add Groq LLM to llamaflowjs
 - Updated dependencies [cf87f84]
-  - @llamaflow/env@0.0.4
+  - @llamaflowjs/env@0.0.4
 
 ## 0.0.2
 

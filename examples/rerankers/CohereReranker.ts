@@ -4,7 +4,7 @@ import {
   OpenAI,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import essay from "../essay";
 

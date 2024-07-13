@@ -1,4 +1,4 @@
-import { ImageNode, Settings, TextNode, VectorStoreIndex } from "llamaflow";
+import { ImageNode, Settings, TextNode, VectorStoreIndex } from "llamaflowjs";
 import { getStorageContext } from "./storage";
 
 // Update chunk size and overlap

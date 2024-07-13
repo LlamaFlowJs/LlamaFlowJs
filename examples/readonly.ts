@@ -3,7 +3,7 @@ import {
   PDFReader,
   VectorStoreIndex,
   storageContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const STORAGE_DIR = "./cache";
 

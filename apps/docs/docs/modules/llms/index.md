@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # Large Language Models (LLMs)
 
-The LLM is responsible for reading text and generating natural language responses to queries. By default, LlamaFlow uses `gpt-3.5-turbo`.
+The LLM is responsible for reading text and generating natural language responses to queries. By default, llamaflowjs uses `gpt-3.5-turbo`.
 
 The LLM can be explicitly updated through `Settings`.
 
 ```typescript
-import { OpenAI, Settings } from "llamaflow";
+import { OpenAI, Settings } from "llamaflowjs";
 
 Settings.llm = new OpenAI({ model: "gpt-3.5-turbo", temperature: 0 });
 ```

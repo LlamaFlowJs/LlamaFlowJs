@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { MistralAI, Settings } from "llamaflow";
+import { MistralAI, Settings } from "llamaflowjs";
 
 Settings.llm = new MistralAI({
   model: "mistral-tiny",
@@ -36,7 +36,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { MistralAI, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { MistralAI, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 // Use the MistralAI LLM
 Settings.llm = new MistralAI({ model: "mistral-tiny" });

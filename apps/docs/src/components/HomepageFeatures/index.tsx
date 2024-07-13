@@ -12,7 +12,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Data Driven",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: <>LlamaFlow is all about using your data with LLMs.</>,
+    description: <>llamaflowjs is all about using your data with LLMs.</>,
   },
   {
     title: "Typescript Native",
@@ -23,7 +23,9 @@ const FeatureList: FeatureItem[] = [
     title: "Built by the Community",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
-      <>LlamaFlow is a community project, and we welcome your contributions!</>
+      <>
+        llamaflowjs is a community project, and we welcome your contributions!
+      </>
     ),
   },
 ];

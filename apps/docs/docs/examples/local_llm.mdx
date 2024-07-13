@@ -1,6 +1,6 @@
 # Local LLMs
 
-LlamaFlow supports OpenAI and [other remote LLM APIs](other_llms). You can also run a local LLM on your machine!
+llamaflowjs supports OpenAI and [other remote LLM APIs](other_llms). You can also run a local LLM on your machine!
 
 ## Using a local model via Ollama
 
@@ -22,7 +22,7 @@ The first time you run it will also automatically download and install the model
 
 ### Switch the LLM in your code
 
-To tell LlamaFlow to use a local LLM, use the `Settings` object:
+To tell llamaflowjs to use a local LLM, use the `Settings` object:
 
 ```javascript
 Settings.llm = new Ollama({
@@ -32,7 +32,7 @@ Settings.llm = new Ollama({
 
 ### Use local embeddings
 
-If you're doing retrieval-augmented generation, LlamaFlow will also call out to OpenAI to index and embed your data. To be entirely local, you can use a local embedding model like this:
+If you're doing retrieval-augmented generation, llamaflowjs will also call out to OpenAI to index and embed your data. To be entirely local, you can use a local embedding model like this:
 
 ```javascript
 Settings.embedModel = new HuggingFaceEmbedding({
@@ -50,7 +50,7 @@ With a local LLM and local embeddings in place, you can perform RAG as usual and
 ```typescript
 async function main() {
   // Load essay from abramov.txt in Node
-  const path = "node_modules/llamaflow/examples/abramov.txt";
+  const path = "node_modules/llamaflowjs/examples/abramov.txt";
 
   const essay = await fs.readFile(path, "utf-8");
 

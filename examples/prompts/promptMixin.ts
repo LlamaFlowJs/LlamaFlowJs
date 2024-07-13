@@ -4,7 +4,7 @@ import {
   TreeSummarize,
   TreeSummarizePrompt,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const treeSummarizePrompt: TreeSummarizePrompt = ({ context, query }) => {
   return `Context information from multiple sources is below.

@@ -1,4 +1,4 @@
-import { HuggingFaceLLM } from "llamaflow";
+import { HuggingFaceLLM } from "llamaflowjs";
 
 (async () => {
   const hf = new HuggingFaceLLM();

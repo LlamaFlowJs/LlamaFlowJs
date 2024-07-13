@@ -6,7 +6,7 @@
  *
  * For example:
  * ```shell
- * node -e "const env = require('@llamaflow/env');"
+ * node -e "const env = require('@llamaflowjs/env');"
  * ```
  *
  * @module

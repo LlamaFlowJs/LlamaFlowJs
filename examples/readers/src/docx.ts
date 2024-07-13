@@ -1,5 +1,5 @@
-import { VectorStoreIndex } from "llamaflow";
-import { DocxReader } from "llamaflow/readers/DocxReader";
+import { VectorStoreIndex } from "llamaflowjs";
+import { DocxReader } from "llamaflowjs/readers/DocxReader";
 
 const FILE_PATH = "../data/stars.docx";
 const SAMPLE_QUERY = "Information about Zodiac";

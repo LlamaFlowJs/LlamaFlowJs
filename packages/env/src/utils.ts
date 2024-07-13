@@ -2,7 +2,7 @@
 export const INTERNAL_ENV: Record<string, string> = {};
 
 /**
- * Set environment variables before using llamaflow, because some LLM need to access API key before running.
+ * Set environment variables before using llamaflowjs, because some LLM need to access API key before running.
  *
  * You have to set the environment variables in Cloudflare Worker environment,
  * because it doesn't have any global environment variables.
@@ -15,7 +15,7 @@ export const INTERNAL_ENV: Record<string, string> = {};
  *     env: Env,
  *     ctx: ExecutionContext,
  *   ): Promise<Response> {
- *     const { setEnvs } = await import("@llamaflow/env");
+ *     const { setEnvs } = await import("@llamaflowjs/env");
  *     setEnvs(env);
  *     // ...
  *     return new Response("Hello, World!");

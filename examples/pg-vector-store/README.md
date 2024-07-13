@@ -39,7 +39,7 @@ To import documents and save the embedding vectors to your database:
 
 > `npx tsx pg-vector-store/load-docs.ts data`
 
-where data is the directory containing your input files. Using the `data` directory in the example above will read all of the files in that directory using the LlamaFlow default readers for each file type.
+where data is the directory containing your input files. Using the `data` directory in the example above will read all of the files in that directory using the llamaflowjs default readers for each file type.
 
 ## RAG Querying
 

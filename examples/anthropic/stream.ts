@@ -1,4 +1,4 @@
-import { Anthropic } from "llamaflow";
+import { Anthropic } from "llamaflowjs";
 
 (async () => {
   const anthropic = new Anthropic({

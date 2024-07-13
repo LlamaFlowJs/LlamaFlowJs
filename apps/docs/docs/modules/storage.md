@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Storage
 
-Storage in LlamaFlow works automatically once you've configured a `StorageContext` object. Just configure the `persistDir` and attach it to an index.
+Storage in llamaflowjs works automatically once you've configured a `StorageContext` object. Just configure the `persistDir` and attach it to an index.
 
 Right now, only saving and loading from disk is supported, with future integrations planned!
 

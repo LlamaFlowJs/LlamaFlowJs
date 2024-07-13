@@ -61,7 +61,7 @@ All Readers share a `loadData` method with `SimpleDirectoryReader` that promises
 However, a simple work around is to create a new reader class that extends `LlamaParseReader` and adds a new method or overrides `loadData`, wrapping around JSON mode, extracting the required values, and returning a Document object.
 
 ```ts
-import { LlamaParseReader, Document } from "llamaflow";
+import { LlamaParseReader, Document } from "llamaflowjs";
 
 class LlamaParseReaderWithJson extends LlamaParseReader {
   // Override the loadData method

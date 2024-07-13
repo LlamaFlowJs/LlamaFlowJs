@@ -1,12 +1,12 @@
 /**
  * @example
  * ```shell
- * node --import @llamaflow/autotool/node ./dist/index.js
+ * node --import @llamaflowjs/autotool/node ./dist/index.js
  * ```
  *
  * @example
  * ```shell
- * node --import tsx --import @llamaflow/autotool/node ./src/index.ts
+ * node --import tsx --import @llamaflowjs/autotool/node ./src/index.ts
  * ```
  *
  * @module

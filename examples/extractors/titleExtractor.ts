@@ -1,4 +1,9 @@
-import { Document, OpenAI, SimpleNodeParser, TitleExtractor } from "llamaflow";
+import {
+  Document,
+  OpenAI,
+  SimpleNodeParser,
+  TitleExtractor,
+} from "llamaflowjs";
 
 import essay from "../essay";
 

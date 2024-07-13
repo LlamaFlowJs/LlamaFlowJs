@@ -1,4 +1,4 @@
-import { Anthropic, SimpleChatEngine, SimpleChatHistory } from "llamaflow";
+import { Anthropic, SimpleChatEngine, SimpleChatHistory } from "llamaflowjs";
 import { stdin as input, stdout as output } from "node:process";
 import readline from "node:readline/promises";
 

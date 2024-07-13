@@ -7,26 +7,26 @@ To find out more about the latest features, updates, and available models, visit
 ## Table of Contents
 
 1. [Setup](#setup)
-2. [Usage with LlamaFlow](#integration-with-llamaflow)
+2. [Usage with llamaflowjs](#integration-with-llamaflowjs)
 3. [Embeddings with Custom Parameters](#embeddings-with-custom-parameters)
 
 ## Setup
 
-First, you will need to install the `llamaflow` package.
+First, you will need to install the `llamaflowjs` package.
 
 ```bash
-pnpm install llamaflow
+pnpm install llamaflowjs
 ```
 
 Next, sign up for an API key at [mixedbread.ai](https://mixedbread.ai/). Once you have your API key, you can import the necessary modules and create a new instance of the `MixedbreadAIEmbeddings` class.
 
 ```ts
-import { MixedbreadAIEmbeddings, Document, Settings } from "llamaflow";
+import { MixedbreadAIEmbeddings, Document, Settings } from "llamaflowjs";
 ```
 
-## Usage with LlamaFlow
+## Usage with llamaflowjs
 
-This section will guide you through integrating mixedbread embeddings with LlamaFlow for more advanced usage.
+This section will guide you through integrating mixedbread embeddings with llamaflowjs for more advanced usage.
 
 ### Step 1: Load and Index Documents
 

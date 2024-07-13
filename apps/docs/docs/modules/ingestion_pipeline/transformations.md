@@ -13,7 +13,7 @@ Currently, the following components are Transformation objects:
 While transformations are best used with with an IngestionPipeline, they can also be used directly.
 
 ```ts
-import { SimpleNodeParser, TitleExtractor, Document } from "llamaflow";
+import { SimpleNodeParser, TitleExtractor, Document } from "llamaflowjs";
 
 async function main() {
   let nodes = new SimpleNodeParser().getNodesFromDocuments([
@@ -39,7 +39,7 @@ You can implement any transformation yourself by implementing the `TransformerCo
 The following custom transformation will remove any special characters or punctutaion in text.
 
 ```ts
-import { TransformerComponent, Node } from "llamaflow";
+import { TransformerComponent, Node } from "llamaflowjs";
 
 class RemoveSpecialCharacters extends TransformerComponent {
   async transform(nodes: Node[]): Promise<Node[]> {
@@ -55,7 +55,7 @@ class RemoveSpecialCharacters extends TransformerComponent {
 These can then be used directly or in any IngestionPipeline.
 
 ```ts
-import { IngestionPipeline, Document } from "llamaflow";
+import { IngestionPipeline, Document } from "llamaflowjs";
 
 async function main() {
   const pipeline = new IngestionPipeline({

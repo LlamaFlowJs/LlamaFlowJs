@@ -1,5 +1,5 @@
 import { atom, createStore } from "jotai/vanilla";
-import type { ToolMetadata } from "llamaflow";
+import type { ToolMetadata } from "llamaflowjs";
 
 export type Info = {
   originalFunction?: (...args: any[]) => any;

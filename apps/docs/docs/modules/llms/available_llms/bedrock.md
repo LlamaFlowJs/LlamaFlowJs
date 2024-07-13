@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { BEDROCK_MODELS, Bedrock } from "@llamaflow/community";
+import { BEDROCK_MODELS, Bedrock } from "@llamaflowjs/community";
 
 Settings.llm = new Bedrock({
   model: BEDROCK_MODELS.ANTHROPIC_CLAUDE_3_HAIKU,
@@ -36,7 +36,7 @@ Sonnet, Haiku and Opus are multimodal, image_url only supports base64 data url f
 ## Full Example
 
 ```ts
-import { BEDROCK_MODELS, Bedrock } from "llamaflow";
+import { BEDROCK_MODELS, Bedrock } from "llamaflowjs";
 
 Settings.llm = new Bedrock({
   model: BEDROCK_MODELS.ANTHROPIC_CLAUDE_3_HAIKU,

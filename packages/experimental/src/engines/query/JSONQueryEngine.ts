@@ -1,14 +1,14 @@
 import jsonpath from "jsonpath";
 
-import { EngineResponse } from "llamaflow";
+import { EngineResponse } from "llamaflowjs";
 
-import { serviceContextFromDefaults, type ServiceContext } from "llamaflow";
+import { serviceContextFromDefaults, type ServiceContext } from "llamaflowjs";
 
 import type {
   QueryEngine,
   QueryEngineParamsNonStreaming,
   QueryEngineParamsStreaming,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import {
   defaultJsonPathPrompt,

@@ -5,7 +5,7 @@ import {
   SentenceWindowNodeParser,
   Settings,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import essay from "./essay";
 

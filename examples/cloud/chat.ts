@@ -1,7 +1,7 @@
 import { stdin as input, stdout as output } from "node:process";
 import readline from "node:readline/promises";
 
-import { ContextChatEngine, LlamaCloudIndex } from "llamaflow";
+import { ContextChatEngine, LlamaCloudIndex } from "llamaflowjs";
 
 async function main() {
   const index = new LlamaCloudIndex({

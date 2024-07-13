@@ -1,4 +1,4 @@
-import { Gemini, GEMINI_MODEL, GeminiVertexSession } from "llamaflow";
+import { Gemini, GEMINI_MODEL, GeminiVertexSession } from "llamaflowjs";
 
 (async () => {
   const gemini = new Gemini({

@@ -9,10 +9,10 @@ An “agent” is an automated reasoning and decision engine. It takes in a user
 
 ## Getting Started
 
-LlamaFlow comes with a few built-in agents, but you can also create your own. The built-in agents include:
+llamaflowjs comes with a few built-in agents, but you can also create your own. The built-in agents include:
 
 - OpenAI Agent
-- Anthropic Agent both via Anthropic and Bedrock (in `@llamaflow/community`)
+- Anthropic Agent both via Anthropic and Bedrock (in `@llamaflowjs/community`)
 - Gemini Agent
 - ReACT Agent
 

@@ -1,4 +1,4 @@
-import { MilvusVectorStore, VectorStoreIndex } from "llamaflow";
+import { MilvusVectorStore, VectorStoreIndex } from "llamaflowjs";
 
 const collectionName = "movie_reviews";
 

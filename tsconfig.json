@@ -33,28 +33,28 @@
       "path": "./packages/core/tests/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/tsconfig.json"
+      "path": "./packages/llamaflowjs/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/e2e/tsconfig.json"
+      "path": "./packages/llamaflowjs/e2e/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/e2e/examples/cloudflare-worker-agent/tsconfig.json"
+      "path": "./packages/llamaflowjs/e2e/examples/cloudflare-worker-agent/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/e2e/examples/nextjs-agent/tsconfig.json"
+      "path": "./packages/llamaflowjs/e2e/examples/nextjs-agent/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/e2e/examples/nextjs-edge-runtime/tsconfig.json"
+      "path": "./packages/llamaflowjs/e2e/examples/nextjs-edge-runtime/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/e2e/examples/nextjs-node-runtime/tsconfig.json"
+      "path": "./packages/llamaflowjs/e2e/examples/nextjs-node-runtime/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/e2e/examples/waku-query-engine/tsconfig.json"
+      "path": "./packages/llamaflowjs/e2e/examples/waku-query-engine/tsconfig.json"
     },
     {
-      "path": "./packages/llamaflow/tests/tsconfig.json"
+      "path": "./packages/llamaflowjs/tests/tsconfig.json"
     },
     {
       "path": "./packages/autotool/tsconfig.json"

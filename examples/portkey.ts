@@ -1,4 +1,4 @@
-import { Portkey } from "llamaflow";
+import { Portkey } from "llamaflowjs";
 
 (async () => {
   const portkey = new Portkey({

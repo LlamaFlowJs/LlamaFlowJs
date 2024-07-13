@@ -11,7 +11,7 @@ import {
   VectorStoreIndex,
   VectorStoreQuery,
   VectorStoreQueryResult,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import { Index, Pinecone, RecordMetadata } from "@pinecone-database/pinecone";
 
@@ -59,7 +59,7 @@ class PineconeVectorStore<T extends RecordMetadata = RecordMetadata>
       }
     }
 
-    // Current LlamaFlow implementation only support exact match filter, so we use kwargs instead.
+    // Current llamaflowjs implementation only support exact match filter, so we use kwargs instead.
     const filter = kwargs?.filter || {};
 
     const response = await this.index.query({
@@ -134,7 +134,7 @@ class PineconeVectorStore<T extends RecordMetadata = RecordMetadata>
 
 /**
  * The goal of this example is to show how to use Pinecone as a vector store
- * for LlamaFlow with(out) preFilters.
+ * for llamaflowjs with(out) preFilters.
  *
  * It should not be used in production like that,
  * as you might want to find a proper PineconeVectorStore implementation.

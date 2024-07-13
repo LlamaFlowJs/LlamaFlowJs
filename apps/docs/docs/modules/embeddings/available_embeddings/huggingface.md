@@ -1,9 +1,9 @@
 # HuggingFace
 
-To use HuggingFace embeddings, you need to import `HuggingFaceEmbedding` from `llamaflow`.
+To use HuggingFace embeddings, you need to import `HuggingFaceEmbedding` from `llamaflowjs`.
 
 ```ts
-import { HuggingFaceEmbedding, Settings } from "llamaflow";
+import { HuggingFaceEmbedding, Settings } from "llamaflowjs";
 
 // Update Embed Model
 Settings.embedModel = new HuggingFaceEmbedding();

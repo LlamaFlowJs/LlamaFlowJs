@@ -7,12 +7,12 @@ const darkCodeTheme = renderer.themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "LlamaFlow",
+  title: "llamaflowjs",
   tagline: "Unleash the power of LLMs over your data in TypeScript",
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
-  url: "https://ts.llamaflow.ai",
+  url: "https://llamaflowjs.ai",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "run-llama", // Usually your GitHub org/user name.
-  projectName: "LlamaFlow", // Usually your repo name.
+  projectName: "llamaflowjs", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -43,8 +43,8 @@ const config = {
           ],
         },
         blog: {
-          blogTitle: "LlamaFlow blog",
-          blogDescription: "The official blog of LlamaFlow",
+          blogTitle: "llamaflowjs blog",
+          blogDescription: "The official blog of llamaflowjs",
           postsPerPage: "ALL",
         },
         gtag: {
@@ -61,9 +61,9 @@ const config = {
       // Replace with your project's social card
       image: "img/favicon.png", // TODO change this
       navbar: {
-        title: "LlamaFlow",
+        title: "llamaflowjs",
         logo: {
-          alt: "LlamaFlow",
+          alt: "llamaflowjs",
           src: "img/favicon.png",
         },
         items: [
@@ -106,7 +106,7 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/llamaflow",
+                href: "https://twitter.com/llamaflowjs",
               },
             ],
           },
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} LlamaFlow. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} llamaflowjs. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -133,7 +133,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: "c4ff3789f20bb72a5d735082aef17719",
 
-        indexName: "ts-llamaflow",
+        indexName: "ts-llamaflowjs",
 
         // Optional: see doc section below
         contextualSearch: true,
@@ -143,7 +143,7 @@ const config = {
     [
       "docusaurus-plugin-typedoc",
       {
-        entryPoints: ["../../packages/llamaflow/src/index.ts"],
+        entryPoints: ["../../packages/llamaflowjs/src/index.ts"],
         tsconfig: "../../tsconfig.json",
         readme: "none",
         sourceLinkTemplate:

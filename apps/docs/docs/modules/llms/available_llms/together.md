@@ -3,7 +3,7 @@
 ## Usage
 
 ```ts
-import { TogetherLLM, Settings } from "llamaflow";
+import { TogetherLLM, Settings } from "llamaflowjs";
 
 Settings.llm = new TogetherLLM({
   apiKey: "<YOUR_API_KEY>",
@@ -35,7 +35,7 @@ const results = await queryEngine.query({
 ## Full Example
 
 ```ts
-import { TogetherLLM, Document, VectorStoreIndex, Settings } from "llamaflow";
+import { TogetherLLM, Document, VectorStoreIndex, Settings } from "llamaflowjs";
 
 Settings.llm = new TogetherLLM({
   apiKey: "<YOUR_API_KEY>",

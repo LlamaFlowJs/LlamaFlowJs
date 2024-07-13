@@ -1,15 +1,15 @@
 "use server";
-import { OpenAIAgent } from "llamaflow";
+import { OpenAIAgent } from "llamaflowjs";
 // import your tools on top, that's it
 import { runWithStreamableUI } from "@/context";
 import "@/tool";
-import { convertTools } from "@llamaflow/autotool";
+import { convertTools } from "@llamaflowjs/autotool";
 import { createStreamableUI } from "ai/rsc";
 import type { JSX } from "react";
 
 export async function chatWithAI(message: string): Promise<JSX.Element> {
   const agent = new OpenAIAgent({
-    tools: convertTools("llamaflow"),
+    tools: convertTools("llamaflowjs"),
   });
   const uiStream = createStreamableUI();
   runWithStreamableUI(uiStream, () =>

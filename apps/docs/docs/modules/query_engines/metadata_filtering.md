@@ -2,17 +2,17 @@
 
 Metadata filtering is a way to filter the documents that are returned by a query based on the metadata associated with the documents. This is useful when you want to filter the documents based on some metadata that is not part of the document text.
 
-You can also check our multi-tenancy blog post to see how metadata filtering can be used in a multi-tenant environment. [https://blog.llamaflow.ai/building-multi-tenancy-rag-system-with-llamaflow-0d6ab4e0c44b] (the article uses the Python version of LlamaFlow, but the concepts are the same).
+You can also check our multi-tenancy blog post to see how metadata filtering can be used in a multi-tenant environment. [https://blog.llamaflowjs.ai/building-multi-tenancy-rag-system-with-llamaflowjs-0d6ab4e0c44b] (the article uses the Python version of llamaflowjs, but the concepts are the same).
 
 ## Setup
 
-Firstly if you haven't already, you need to install the `llamaflow` package:
+Firstly if you haven't already, you need to install the `llamaflowjs` package:
 
 ```bash
-pnpm i llamaflow
+pnpm i llamaflowjs
 ```
 
-Then you can import the necessary modules from `llamaflow`:
+Then you can import the necessary modules from `llamaflowjs`:
 
 ```ts
 import {
@@ -20,7 +20,7 @@ import {
   Document,
   VectorStoreIndex,
   storageContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const collectionName = "dog_colors";
 ```
@@ -96,7 +96,7 @@ import {
   Document,
   VectorStoreIndex,
   storageContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 const collectionName = "dog_colors";
 

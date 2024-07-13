@@ -1,4 +1,4 @@
-import { FunctionTool, OpenAIAgent } from "llamaflow";
+import { FunctionTool, OpenAIAgent } from "llamaflowjs";
 
 const sumNumbers = FunctionTool.from(
   ({ a, b }: { a: number; b: number }) => `${a + b}`,

@@ -1,9 +1,9 @@
 # OpenAI
 
-To use OpenAI embeddings, you need to import `OpenAIEmbedding` from `llamaflow`.
+To use OpenAI embeddings, you need to import `OpenAIEmbedding` from `llamaflowjs`.
 
 ```ts
-import { OpenAIEmbedding, Settings } from "llamaflow";
+import { OpenAIEmbedding, Settings } from "llamaflowjs";
 
 Settings.embedModel = new OpenAIEmbedding();
 

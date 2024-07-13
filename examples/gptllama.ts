@@ -1,7 +1,7 @@
 import { stdin as input, stdout as output } from "node:process";
 import readline from "node:readline/promises";
 
-import { ChatMessage, LlamaDeuce, OpenAI } from "llamaflow";
+import { ChatMessage, LlamaDeuce, OpenAI } from "llamaflowjs";
 
 (async () => {
   const gpt4 = new OpenAI({ model: "gpt-4", temperature: 0.9 });

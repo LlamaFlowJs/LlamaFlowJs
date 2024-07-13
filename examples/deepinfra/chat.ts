@@ -1,4 +1,4 @@
-import { DeepInfra } from "llamaflow";
+import { DeepInfra } from "llamaflowjs";
 
 (async () => {
   if (!process.env.DEEPINFRA_API_TOKEN) {

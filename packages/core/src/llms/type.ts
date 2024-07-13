@@ -1,4 +1,4 @@
-import type { Tokenizers } from "@llamaflow/env";
+import type { Tokenizers } from "@llamaflowjs/env";
 import type { JSONSchemaType } from "ajv";
 import type { JSONObject, JSONValue } from "../global/type";
 

@@ -12,7 +12,7 @@ import {
   SummaryIndex,
   VectorStoreIndex,
   storageContextFromDefaults,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import { extractWikipedia } from "./helpers/extractWikipedia";
 

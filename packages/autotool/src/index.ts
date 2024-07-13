@@ -1,5 +1,5 @@
 import { atom } from "jotai/vanilla";
-import type { BaseToolWithCall, ToolMetadata } from "llamaflow";
+import type { BaseToolWithCall, ToolMetadata } from "llamaflowjs";
 import type { ChatCompletionTool } from "openai/resources/chat/completions";
 import { store, toolMetadataAtom, toolsAtom, type Info } from "./internal";
 
@@ -47,7 +47,7 @@ const llamaindexToolsAtom = atom<BaseToolWithCall[]>((get) => {
 });
 
 export function convertTools(format: "openai"): ChatCompletionTool[];
-export function convertTools(format: "llamaflow"): BaseToolWithCall[];
+export function convertTools(format: "llamaflowjs"): BaseToolWithCall[];
 export function convertTools(
   format: string,
 ): ChatCompletionTool[] | BaseToolWithCall[] {
@@ -55,7 +55,7 @@ export function convertTools(
     case "openai": {
       return store.get(openaiToolsAtom);
     }
-    case "llamaflow": {
+    case "llamaflowjs": {
       return store.get(llamaindexToolsAtom);
     }
   }

@@ -1,4 +1,4 @@
-import { FunctionTool, OpenAI, ToolCallOptions } from "llamaflow";
+import { FunctionTool, OpenAI, ToolCallOptions } from "llamaflowjs";
 
 (async () => {
   // The tool call will generate a partial JSON for `gpt-4-turbo`

@@ -6,7 +6,7 @@ import {
   SimpleNodeParser,
   SummaryIndex,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 // Update llm
 Settings.llm = new OpenAI();
@@ -19,7 +19,7 @@ Settings.nodeParser = new SimpleNodeParser({
 async function main() {
   // Load documents from a directory
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "node_modules/llamaflow/examples",
+    directoryPath: "node_modules/llamaflowjs/examples",
   });
 
   // Create indices

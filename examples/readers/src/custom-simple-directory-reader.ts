@@ -1,10 +1,10 @@
-import type { Document, Metadata } from "llamaflow";
-import { FileReader } from "llamaflow";
+import type { Document, Metadata } from "llamaflowjs";
+import { FileReader } from "llamaflowjs";
 import {
   FILE_EXT_TO_READER,
   SimpleDirectoryReader,
-} from "llamaflow/readers/SimpleDirectoryReader";
-import { TextFileReader } from "llamaflow/readers/TextFileReader";
+} from "llamaflowjs/readers/SimpleDirectoryReader";
+import { TextFileReader } from "llamaflowjs/readers/TextFileReader";
 
 class ZipReader extends FileReader {
   loadDataAsContent(fileContent: Uint8Array): Promise<Document<Metadata>[]> {

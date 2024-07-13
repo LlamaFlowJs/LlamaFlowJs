@@ -1,4 +1,4 @@
-import { TogetherEmbedding, TogetherLLM } from "llamaflow";
+import { TogetherEmbedding, TogetherLLM } from "llamaflowjs";
 
 // process.env.TOGETHER_API_KEY is required
 const together = new TogetherLLM({

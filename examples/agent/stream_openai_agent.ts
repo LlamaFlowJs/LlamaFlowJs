@@ -1,4 +1,4 @@
-import { FunctionTool, OpenAIAgent } from "llamaflow";
+import { FunctionTool, OpenAIAgent } from "llamaflowjs";
 
 // Define a function to sum two numbers
 function sumNumbers({ a, b }: { a: number; b: number }) {

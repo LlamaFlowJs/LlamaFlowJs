@@ -5,7 +5,7 @@ import {
   Settings,
   SimilarityPostprocessor,
   VectorStoreIndex,
-} from "llamaflow";
+} from "llamaflowjs";
 
 import essay from "./essay";
 

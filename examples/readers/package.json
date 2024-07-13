@@ -1,5 +1,5 @@
 {
-  "name": "llamaflow-loader-example",
+  "name": "llamaflowjs-loader-example",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,7 +15,7 @@
     "start:llamaparse-json": "node --import tsx ./src/llamaparse-json.ts"
   },
   "dependencies": {
-    "llamaflow": "*"
+    "llamaflowjs": "*"
   },
   "devDependencies": {
     "@types/node": "^20.12.11",
