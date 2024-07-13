@@ -1,0 +1,17 @@
+{
+  "name": "@llamaflow/autotool-01-node-example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@llamaflow/autotool": "workspace:*",
+    "llamaflow": "workspace:*",
+    "openai": "^4.52.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.6"
+  },
+  "scripts": {
+    "start": "node --import tsx --import @llamaflow/autotool/node ./src/index.ts"
+  },
+  "version": null
+}

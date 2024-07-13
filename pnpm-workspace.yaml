@@ -1,0 +1,10 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "packages/core/tests"
+  - "packages/llamaflow/tests"
+  - "packages/llamaflow/e2e"
+  - "packages/llamaflow/e2e/examples/*"
+  - "packages/autotool/examples/*"
+  - "examples/"
+  - "examples/*"

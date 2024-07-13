@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist/type",
+    "tsBuildInfoFile": "./dist/.tsbuildinfo",
+    "emitDeclarationOnly": true,
+    "module": "nodenext",
+    "moduleResolution": "node16",
+    "types": ["node"],
+    "resolveJsonModule": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
