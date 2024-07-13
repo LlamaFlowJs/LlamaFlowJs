@@ -9,7 +9,7 @@ This is useful for measuring if the response was correct. The evaluator returns 
 Firstly, you need to install the package:
 
 ```bash
-pnpm i llamaindex
+pnpm i llamaflow
 ```
 
 Set the OpenAI API key:

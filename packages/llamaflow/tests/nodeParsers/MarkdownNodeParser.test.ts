@@ -1,5 +1,5 @@
 import { Document, MetadataMode } from "@llamaflow/core/schema";
-import { MarkdownNodeParser } from "llamaindex/nodeParsers/index";
+import { MarkdownNodeParser } from "llamaflow/nodeParsers/index";
 import { describe, expect, test } from "vitest";
 
 describe("MarkdownNodeParser", () => {

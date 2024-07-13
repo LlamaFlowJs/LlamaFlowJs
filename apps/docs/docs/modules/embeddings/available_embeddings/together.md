@@ -1,6 +1,6 @@
 # Together
 
-To use together embeddings, you need to import `TogetherEmbedding` from `llamaindex`.
+To use together embeddings, you need to import `TogetherEmbedding` from `llamaflow`.
 
 ```ts
 import { TogetherEmbedding, Settings } from "llamaflow";

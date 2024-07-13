@@ -1,6 +1,6 @@
 # Gemini
 
-To use Gemini embeddings, you need to import `GeminiEmbedding` from `llamaindex`.
+To use Gemini embeddings, you need to import `GeminiEmbedding` from `llamaflow`.
 
 ```ts
 import { GeminiEmbedding, Settings } from "llamaflow";

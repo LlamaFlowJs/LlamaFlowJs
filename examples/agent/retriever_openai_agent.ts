@@ -10,7 +10,7 @@ import {
 async function main() {
   // Load the documents
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "node_modules/llamaindex/examples",
+    directoryPath: "node_modules/llamaflow/examples",
   });
 
   // Create a vector index from the documents

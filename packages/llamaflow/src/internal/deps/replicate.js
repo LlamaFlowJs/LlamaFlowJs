@@ -1244,7 +1244,7 @@ var require_package = __commonJS({
       },
       repository: {
         type: "git",
-        url: "https://github.com/himself65/LlamaIndexTS.git",
+        url: "https://github.com/himself65/llamaflowTS.git",
       },
       private: true,
       devDependencies: {

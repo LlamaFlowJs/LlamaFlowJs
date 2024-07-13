@@ -5,7 +5,7 @@ import {
   OpenAI,
   VectorStoreIndex,
 } from "llamaflow";
-import { createMessageContent } from "llamaindex/synthesizers/utils";
+import { createMessageContent } from "llamaflow/synthesizers/utils";
 
 const reader = new LlamaParseReader();
 async function main() {

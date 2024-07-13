@@ -120,7 +120,7 @@ export class MixedbreadAIEmbeddings extends BaseEmbedding {
       // Support for this already exists in the python sdk and will be added to the js sdk soon
       // @ts-ignore
       additionalHeaders: {
-        "user-agent": "@mixedbread-ai/llamaindex-ts-sdk",
+        "user-agent": "@mixedbread-ai/llamaflow-ts-sdk",
       },
     };
     this.client = new MixedbreadAIClient({

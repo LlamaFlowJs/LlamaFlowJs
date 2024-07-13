@@ -1,5 +1,5 @@
 {
-  "name": "llamaindex-loader-example",
+  "name": "llamaflow-loader-example",
   "private": true,
   "type": "module",
   "scripts": {

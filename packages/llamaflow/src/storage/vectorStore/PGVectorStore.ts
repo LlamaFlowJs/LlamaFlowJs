@@ -16,7 +16,7 @@ export const PGVECTOR_TABLE = "llamaindex_embedding";
 
 /**
  * Provides support for writing and querying vector data in Postgres.
- * Note: Can't be used with data created using the Python version of the vector store (https://docs.llamaindex.ai/en/stable/examples/vector_stores/postgres.html)
+ * Note: Can't be used with data created using the Python version of the vector store (https://docs.llamaflow.ai/en/stable/examples/vector_stores/postgres.html)
  */
 export class PGVectorStore
   extends VectorStoreBase

@@ -9,7 +9,7 @@ It is useful for measuring if the response was relevant to the query. The evalua
 Firstly, you need to install the package:
 
 ```bash
-pnpm i llamaindex
+pnpm i llamaflow
 ```
 
 Set the OpenAI API key:

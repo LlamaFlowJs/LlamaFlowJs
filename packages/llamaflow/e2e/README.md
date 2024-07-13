@@ -1,8 +1,8 @@
-# LlamaIndexTS Core E2E Tests
+# LlamaFlow Core E2E Tests
 
 ## Overview
 
-We are using Node.js Test Runner to run E2E tests for LlamaIndexTS Core.
+We are using Node.js Test Runner to run E2E tests for LlamaFlow Core.
 
 It supports the following features:
 

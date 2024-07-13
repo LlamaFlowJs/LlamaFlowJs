@@ -1,5 +1,5 @@
 import { OllamaEmbedding } from "llamaflow";
-import { Ollama } from "llamaindex/llm/ollama";
+import { Ollama } from "llamaflow/llm/ollama";
 
 (async () => {
   const llm = new Ollama({

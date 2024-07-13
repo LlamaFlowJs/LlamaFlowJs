@@ -18,7 +18,7 @@
 
 - c3747d0: fix: import `@xenova/transformers`
 
-  For now, if you use llamaindex in next.js, you need to add a plugin from `llamaindex/next` to ensure some module resolutions are correct.
+  For now, if you use llamaflow in next.js, you need to add a plugin from `llamaflow/next` to ensure some module resolutions are correct.
 
 ## 0.0.4
 

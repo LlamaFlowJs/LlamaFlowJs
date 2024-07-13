@@ -1,5 +1,5 @@
 import { Document } from "@llamaflow/core/schema";
-import { SimpleNodeParser } from "llamaindex/nodeParsers/index";
+import { SimpleNodeParser } from "llamaflow/nodeParsers/index";
 import { beforeEach, describe, expect, test } from "vitest";
 
 describe("SimpleNodeParser", () => {

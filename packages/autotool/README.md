@@ -42,7 +42,7 @@ export function getWeather(city: string) {
 // ...
 ```
 
-Finally, export a chat handler function to the frontend using `llamaindex` Agent
+Finally, export a chat handler function to the frontend using `llamaflow` Agent
 
 ```typescript
 "use server";

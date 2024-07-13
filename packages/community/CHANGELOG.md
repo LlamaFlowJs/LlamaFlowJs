@@ -10,7 +10,7 @@
 
 ### Patch Changes
 
-- 16ef5dd: refactor: depends on core pacakge instead of llamaindex
+- 16ef5dd: refactor: depends on core pacakge instead of llamaflow
 - Updated dependencies [16ef5dd]
 - Updated dependencies [16ef5dd]
   - @llamaflow/core@0.1.0
@@ -19,7 +19,7 @@
 
 ### Patch Changes
 
-- llamaindex@0.4.14
+- llamaflow@0.4.14
 
 ## 0.0.17
 
@@ -27,7 +27,7 @@
 
 - Updated dependencies [e8f8bea]
 - Updated dependencies [304484b]
-  - llamaindex@0.4.13
+  - llamaflow@0.4.13
 
 ## 0.0.16
 
@@ -35,35 +35,35 @@
 
 - f326ab8: chore: bump version
 - Updated dependencies [f326ab8]
-  - llamaindex@0.4.12
+  - llamaflow@0.4.12
 
 ## 0.0.15
 
 ### Patch Changes
 
 - Updated dependencies [8bf5b4a]
-  - llamaindex@0.4.11
+  - llamaflow@0.4.11
 
 ## 0.0.14
 
 ### Patch Changes
 
 - Updated dependencies [7dce3d2]
-  - llamaindex@0.4.10
+  - llamaflow@0.4.10
 
 ## 0.0.13
 
 ### Patch Changes
 
 - Updated dependencies [3a96a48]
-  - llamaindex@0.4.9
+  - llamaflow@0.4.9
 
 ## 0.0.12
 
 ### Patch Changes
 
 - Updated dependencies [83ebdfb]
-  - llamaindex@0.4.8
+  - llamaflow@0.4.8
 
 ## 0.0.11
 
@@ -72,7 +72,7 @@
 - Updated dependencies [41fe871]
 - Updated dependencies [321c39d]
 - Updated dependencies [f7f1af0]
-  - llamaindex@0.4.7
+  - llamaflow@0.4.7
 
 ## 0.0.10
 
@@ -80,28 +80,28 @@
 
 - Updated dependencies [1feb23b]
 - Updated dependencies [08c55ec]
-  - llamaindex@0.4.6
+  - llamaflow@0.4.6
 
 ## 0.0.9
 
 ### Patch Changes
 
 - Updated dependencies [6c3e5d0]
-  - llamaindex@0.4.5
+  - llamaflow@0.4.5
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [42eb73a]
-  - llamaindex@0.4.4
+  - llamaflow@0.4.4
 
 ## 0.0.7
 
 ### Patch Changes
 
 - Updated dependencies [2ef62a9]
-  - llamaindex@0.4.3
+  - llamaflow@0.4.3
 
 ## 0.0.6
 
@@ -110,7 +110,7 @@
 - a87a4d1: feat: added tool support calling for Bedrock's Calude and general llm support for agents
 - Updated dependencies [a87a4d1]
 - Updated dependencies [0730140]
-  - llamaindex@0.4.2
+  - llamaflow@0.4.2
 
 ## 0.0.5
 
@@ -120,7 +120,7 @@
 - Updated dependencies [3c47910]
 - Updated dependencies [ed467a9]
 - Updated dependencies [cba5406]
-  - llamaindex@0.4.1
+  - llamaflow@0.4.1
 
 ## 0.0.4
 
@@ -131,7 +131,7 @@
 - Updated dependencies [a44e54f]
 - Updated dependencies [a51ed8d]
 - Updated dependencies [d3b635b]
-  - llamaindex@0.4.0
+  - llamaflow@0.4.0
 
 ## 0.0.3
 
@@ -140,7 +140,7 @@
 - Updated dependencies [6bc5bdd]
 - Updated dependencies [bf25ff6]
 - Updated dependencies [e6d6576]
-  - llamaindex@0.3.17
+  - llamaflow@0.3.17
 
 ## 0.0.2
 
@@ -157,4 +157,4 @@
 - Updated dependencies [54230f0]
 - Updated dependencies [a29d835]
 - Updated dependencies [73819bf]
-  - llamaindex@0.3.16
+  - llamaflow@0.3.16

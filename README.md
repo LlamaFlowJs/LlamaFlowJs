@@ -7,7 +7,7 @@
 
 LlamaFlow is a framework that has inbuilt agentic workflows,reiterative reflection and llm review system making it a true framework for llm applications
 
-LlamaFlow is built on top of LlamaIndex
+LlamaFlow is built on top of LlamaFlow
 
 - LlamaFlow will be carried out as an independent Project.
 - Focused on building the true agentic workflow that provides built-in solution towards reiterative reflection and review of llm prompts

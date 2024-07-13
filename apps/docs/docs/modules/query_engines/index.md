@@ -22,7 +22,7 @@ The basic concept of the Sub Question Query Engine is that it splits a single qu
 
 ### Getting Started
 
-The easiest way to start trying the Sub Question Query Engine is running the subquestion.ts file in [examples](https://github.com/run-llama/LlamaIndexTS/blob/main/examples/subquestion.ts).
+The easiest way to start trying the Sub Question Query Engine is running the subquestion.ts file in [examples](https://github.com/run-llama/llamaflowTS/blob/main/examples/subquestion.ts).
 
 ```bash
 npx ts-node subquestion.ts
@@ -32,7 +32,7 @@ npx ts-node subquestion.ts
 
 SubQuestionQueryEngine is implemented with Tools. The basic idea of Tools is that they are executable options for the large language model. In this case, our SubQuestionQueryEngine relies on QueryEngineTool, which as you guessed it is a tool to run queries on a QueryEngine. This allows us to give the model an option to query different documents for different questions for example. You could also imagine that the SubQuestionQueryEngine could use a Tool that searches for something on the web or gets an answer using Wolfram Alpha.
 
-You can learn more about Tools by taking a look at the LlamaIndex Python documentation https://gpt-index.readthedocs.io/en/latest/core_modules/agent_modules/tools/root.html
+You can learn more about Tools by taking a look at the LlamaFlow Python documentation https://gpt-index.readthedocs.io/en/latest/core_modules/agent_modules/tools/root.html
 
 ## API Reference
 

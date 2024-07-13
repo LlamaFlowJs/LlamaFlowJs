@@ -17,7 +17,7 @@ import { Document, VectorStoreIndex, QdrantVectorStore } from "llamaflow";
 ## Load the documents
 
 ```ts
-const path = "node_modules/llamaindex/examples/abramov.txt";
+const path = "node_modules/llamaflow/examples/abramov.txt";
 const essay = await fs.readFile(path, "utf-8");
 ```
 
@@ -59,7 +59,7 @@ import fs from "node:fs/promises";
 import { Document, VectorStoreIndex, QdrantVectorStore } from "llamaflow";
 
 async function main() {
-  const path = "node_modules/llamaindex/examples/abramov.txt";
+  const path = "node_modules/llamaflow/examples/abramov.txt";
   const essay = await fs.readFile(path, "utf-8");
 
   const vectorStore = new QdrantVectorStore({

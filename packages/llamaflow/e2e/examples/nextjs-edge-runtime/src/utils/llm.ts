@@ -1,7 +1,7 @@
 // test runtime
 import "llamaflow";
-import { ClipEmbedding } from "llamaindex/embeddings/ClipEmbedding";
-import "llamaindex/readers/SimpleDirectoryReader";
+import { ClipEmbedding } from "llamaflow/embeddings/ClipEmbedding";
+import "llamaflow/readers/SimpleDirectoryReader";
 
 // @ts-expect-error
 if (typeof EdgeRuntime !== "string") {

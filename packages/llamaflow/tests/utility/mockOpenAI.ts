@@ -1,8 +1,8 @@
 import type { CallbackManager } from "@llamaflow/core/global";
 import type { LLMChatParamsBase } from "llamaflow";
 import { Settings } from "llamaflow";
-import type { OpenAIEmbedding } from "llamaindex/embeddings/OpenAIEmbedding";
-import { OpenAI } from "llamaindex/llm/openai";
+import type { OpenAIEmbedding } from "llamaflow/embeddings/OpenAIEmbedding";
+import { OpenAI } from "llamaflow/llm/openai";
 import { vi } from "vitest";
 
 export const DEFAULT_LLM_TEXT_OUTPUT = "MOCK_TOKEN_1-MOCK_TOKEN_2";

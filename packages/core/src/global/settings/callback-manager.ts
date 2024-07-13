@@ -33,7 +33,7 @@ export type LLMStreamEvent = {
   chunk: ChatResponseChunk;
 };
 
-export interface LlamaIndexEventMaps {
+export interface LlamaFlowEventMaps {
   "llm-start": LLMStartEvent;
   "llm-end": LLMEndEvent;
   "llm-tool-call": LLMToolCallEvent;
@@ -41,7 +41,7 @@ export interface LlamaIndexEventMaps {
   "llm-stream": LLMStreamEvent;
 }
 
-export class LlamaIndexCustomEvent<T = any> extends CustomEvent<T> {
+export class LlamaFlowCustomEvent<T = any> extends CustomEvent<T> {
   reason: EventCaller | null = null;
   private constructor(
     event: string,
@@ -53,25 +53,25 @@ export class LlamaIndexCustomEvent<T = any> extends CustomEvent<T> {
     this.reason = options?.reason ?? null;
   }
 
-  static fromEvent<Type extends keyof LlamaIndexEventMaps>(
+  static fromEvent<Type extends keyof LlamaFlowEventMaps>(
     type: Type,
-    detail: LlamaIndexEventMaps[Type],
+    detail: LlamaFlowEventMaps[Type],
   ) {
-    return new LlamaIndexCustomEvent(type, {
+    return new LlamaFlowCustomEvent(type, {
       detail: detail,
       reason: getEventCaller(),
     });
   }
 }
 
-type EventHandler<Event> = (event: LlamaIndexCustomEvent<Event>) => void;
+type EventHandler<Event> = (event: LlamaFlowCustomEvent<Event>) => void;
 
 export class CallbackManager {
-  #handlers = new Map<keyof LlamaIndexEventMaps, EventHandler<any>[]>();
+  #handlers = new Map<keyof LlamaFlowEventMaps, EventHandler<any>[]>();
 
-  on<K extends keyof LlamaIndexEventMaps>(
+  on<K extends keyof LlamaFlowEventMaps>(
     event: K,
-    handler: EventHandler<LlamaIndexEventMaps[K]>,
+    handler: EventHandler<LlamaFlowEventMaps[K]>,
   ) {
     if (!this.#handlers.has(event)) {
       this.#handlers.set(event, []);
@@ -80,9 +80,9 @@ export class CallbackManager {
     return this;
   }
 
-  off<K extends keyof LlamaIndexEventMaps>(
+  off<K extends keyof LlamaFlowEventMaps>(
     event: K,
-    handler: EventHandler<LlamaIndexEventMaps[K]>,
+    handler: EventHandler<LlamaFlowEventMaps[K]>,
   ) {
     if (!this.#handlers.has(event)) {
       return this;
@@ -95,9 +95,9 @@ export class CallbackManager {
     return this;
   }
 
-  dispatchEvent<K extends keyof LlamaIndexEventMaps>(
+  dispatchEvent<K extends keyof LlamaFlowEventMaps>(
     event: K,
-    detail: LlamaIndexEventMaps[K],
+    detail: LlamaFlowEventMaps[K],
   ) {
     const cbs = this.#handlers.get(event);
     if (!cbs) {
@@ -105,9 +105,7 @@ export class CallbackManager {
     }
     queueMicrotask(() => {
       cbs.forEach((handler) =>
-        handler(
-          LlamaIndexCustomEvent.fromEvent(event, structuredClone(detail)),
-        ),
+        handler(LlamaFlowCustomEvent.fromEvent(event, structuredClone(detail))),
       );
     });
   }

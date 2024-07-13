@@ -1,5 +1,5 @@
 import type { BaseNode } from "@llamaflow/core/schema";
-import { QdrantVectorStore } from "llamaindex/storage/index";
+import { QdrantVectorStore } from "llamaflow/storage/index";
 
 export class TestableQdrantVectorStore extends QdrantVectorStore {
   public nodes: BaseNode[] = [];

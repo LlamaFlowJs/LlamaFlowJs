@@ -2,7 +2,7 @@
 
 While an agent that can perform math is nifty (LLMs are usually not very good at math), LLM-based applications are always more interesting when they work with large amounts of data. In this case, we're going to use a 200-page PDF of the proposed budget of the city of San Francisco for fiscal years 2024-2024 and 2024-2025. It's a great example because it's extremely wordy and full of tables of figures, which present a challenge for humans and LLMs alike.
 
-To learn more about RAG, we recommend this [introduction](https://docs.llamaindex.ai/en/stable/getting_started/concepts/) from our Python docs. We'll assume you know the basics:
+To learn more about RAG, we recommend this [introduction](https://docs.llamaflow.ai/en/stable/getting_started/concepts/) from our Python docs. We'll assume you know the basics:
 
 - You need to parse your source data into chunks of text
 - You need to encode that text as numbers, called embeddings
@@ -13,7 +13,7 @@ We're going to start with the same agent we [built in step 1](https://github.com
 
 ### New dependencies
 
-We'll be bringing in `SimpleDirectoryReader`, `HuggingFaceEmbedding`, `VectorStoreIndex`, and `QueryEngineTool` from LlamaIndex.TS, as well as the dependencies we previously used.
+We'll be bringing in `SimpleDirectoryReader`, `HuggingFaceEmbedding`, `VectorStoreIndex`, and `QueryEngineTool` from LlamaFlow, as well as the dependencies we previously used.
 
 ```javascript
 import {
@@ -58,7 +58,7 @@ const index = await VectorStoreIndex.fromDocuments(documents);
 
 ### Configure a retriever
 
-Before LlamaIndex can send a query to the LLM, it needs to find the most relevant chunks to send. That's the purpose of a `Retriever`. We're going to get `VectorStoreIndex` to act as a retriever for us
+Before LlamaFlow can send a query to the LLM, it needs to find the most relevant chunks to send. That's the purpose of a `Retriever`. We're going to get `VectorStoreIndex` to act as a retriever for us
 
 ```javascript
 const retriever = await index.asRetriever();
@@ -66,7 +66,7 @@ const retriever = await index.asRetriever();
 
 ### Configure how many documents to retrieve
 
-By default LlamaIndex will retrieve just the 2 most relevant chunks of text. This document is complex though, so we'll ask for more context.
+By default LlamaFlow will retrieve just the 2 most relevant chunks of text. This document is complex though, so we'll ask for more context.
 
 ```javascript
 retriever.similarityTopK = 10;

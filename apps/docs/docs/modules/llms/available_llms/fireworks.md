@@ -37,7 +37,7 @@ const response = await queryEngine.query({
 
 ```ts
 import { VectorStoreIndex } from "llamaflow";
-import { PDFReader } from "llamaindex/readers/PDFReader";
+import { PDFReader } from "llamaflow/readers/PDFReader";
 
 async function main() {
   // Load PDF

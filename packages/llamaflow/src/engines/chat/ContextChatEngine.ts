@@ -28,7 +28,7 @@ import type {
 
 /**
  * ContextChatEngine uses the Index to get the appropriate context for each query.
- * The context is stored in the system prompt, and the chat history is chunk: ChatResponseChunk, nodes?: NodeWithScore<import("/Users/marcus/code/llamaindex/LlamaIndexTS/packages/core/src/Node").Metadata>[], nodes?: NodeWithScore<import("/Users/marcus/code/llamaindex/LlamaIndexTS/packages/core/src/Node").Metadata>[]lowing the appropriate context to be surfaced for each query.
+ * The context is stored in the system prompt, and the chat history is chunk: ChatResponseChunk, nodes?: NodeWithScore<import("/Users/marcus/code/llamaflow/llamaflowTS/packages/core/src/Node").Metadata>[], nodes?: NodeWithScore<import("/Users/marcus/code/llamaflow/llamaflowTS/packages/core/src/Node").Metadata>[]lowing the appropriate context to be surfaced for each query.
  */
 export class ContextChatEngine extends PromptMixin implements ChatEngine {
   chatModel: LLM;

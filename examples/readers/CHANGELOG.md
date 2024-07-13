@@ -1,4 +1,4 @@
-# llamaindex-loader-example
+# llamaflow-loader-example
 
 ### Patch Changes
 
@@ -8,4 +8,4 @@
 - Updated dependencies [d766bd0]
 - Updated dependencies [dd95927]
 - Updated dependencies [bf583a7]
-  - llamaindex@0.2.0
+  - llamaflow@0.2.0

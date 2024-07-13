@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- llamaindex@0.5.2
+- llamaflow@0.5.2
 
 ## 0.1.35
 
@@ -12,7 +12,7 @@
 
 - Updated dependencies [2774681]
 - Updated dependencies [a0f424e]
-  - llamaindex@0.5.1
+  - llamaflow@0.5.1
 
 ## 0.1.34
 
@@ -21,13 +21,13 @@
 - Updated dependencies [16ef5dd]
 - Updated dependencies [16ef5dd]
 - Updated dependencies [36ddec4]
-  - llamaindex@0.5.0
+  - llamaflow@0.5.0
 
 ## 0.1.33
 
 ### Patch Changes
 
-- llamaindex@0.4.14
+- llamaflow@0.4.14
 
 ## 0.1.32
 
@@ -35,42 +35,42 @@
 
 - Updated dependencies [e8f8bea]
 - Updated dependencies [304484b]
-  - llamaindex@0.4.13
+  - llamaflow@0.4.13
 
 ## 0.1.31
 
 ### Patch Changes
 
 - Updated dependencies [f326ab8]
-  - llamaindex@0.4.12
+  - llamaflow@0.4.12
 
 ## 0.1.30
 
 ### Patch Changes
 
 - Updated dependencies [8bf5b4a]
-  - llamaindex@0.4.11
+  - llamaflow@0.4.11
 
 ## 0.1.29
 
 ### Patch Changes
 
 - Updated dependencies [7dce3d2]
-  - llamaindex@0.4.10
+  - llamaflow@0.4.10
 
 ## 0.1.28
 
 ### Patch Changes
 
 - Updated dependencies [3a96a48]
-  - llamaindex@0.4.9
+  - llamaflow@0.4.9
 
 ## 0.1.27
 
 ### Patch Changes
 
 - Updated dependencies [83ebdfb]
-  - llamaindex@0.4.8
+  - llamaflow@0.4.8
 
 ## 0.1.26
 
@@ -79,7 +79,7 @@
 - Updated dependencies [41fe871]
 - Updated dependencies [321c39d]
 - Updated dependencies [f7f1af0]
-  - llamaindex@0.4.7
+  - llamaflow@0.4.7
 
 ## 0.1.25
 
@@ -87,28 +87,28 @@
 
 - Updated dependencies [1feb23b]
 - Updated dependencies [08c55ec]
-  - llamaindex@0.4.6
+  - llamaflow@0.4.6
 
 ## 0.1.24
 
 ### Patch Changes
 
 - Updated dependencies [6c3e5d0]
-  - llamaindex@0.4.5
+  - llamaflow@0.4.5
 
 ## 0.1.23
 
 ### Patch Changes
 
 - Updated dependencies [42eb73a]
-  - llamaindex@0.4.4
+  - llamaflow@0.4.4
 
 ## 0.1.22
 
 ### Patch Changes
 
 - Updated dependencies [2ef62a9]
-  - llamaindex@0.4.3
+  - llamaflow@0.4.3
 
 ## 0.1.21
 
@@ -116,7 +116,7 @@
 
 - Updated dependencies [a87a4d1]
 - Updated dependencies [0730140]
-  - llamaindex@0.4.2
+  - llamaflow@0.4.2
 
 ## 0.1.20
 
@@ -125,7 +125,7 @@
 - Updated dependencies [3c47910]
 - Updated dependencies [ed467a9]
 - Updated dependencies [cba5406]
-  - llamaindex@0.4.1
+  - llamaflow@0.4.1
 
 ## 0.1.19
 
@@ -135,7 +135,7 @@
 - Updated dependencies [a44e54f]
 - Updated dependencies [a51ed8d]
 - Updated dependencies [d3b635b]
-  - llamaindex@0.4.0
+  - llamaflow@0.4.0
 
 ## 0.1.18
 
@@ -144,7 +144,7 @@
 - Updated dependencies [6bc5bdd]
 - Updated dependencies [bf25ff6]
 - Updated dependencies [e6d6576]
-  - llamaindex@0.3.17
+  - llamaflow@0.3.17
 
 ## 0.1.17
 
@@ -160,7 +160,7 @@
 - Updated dependencies [54230f0]
 - Updated dependencies [a29d835]
 - Updated dependencies [73819bf]
-  - llamaindex@0.3.16
+  - llamaflow@0.3.16
 
 ## 0.1.16
 
@@ -169,7 +169,7 @@
 - Updated dependencies [6e156ed]
 - Updated dependencies [265976d]
 - Updated dependencies [8e26f75]
-  - llamaindex@0.3.15
+  - llamaflow@0.3.15
 
 ## 0.1.15
 
@@ -177,7 +177,7 @@
 
 - Updated dependencies [6ff7576]
 - Updated dependencies [94543de]
-  - llamaindex@0.3.14
+  - llamaflow@0.3.14
 
 ## 0.1.14
 
@@ -187,14 +187,14 @@
 - Updated dependencies [37525df]
 - Updated dependencies [660a2b3]
 - Updated dependencies [a1f2475]
-  - llamaindex@0.3.13
+  - llamaflow@0.3.13
 
 ## 0.1.13
 
 ### Patch Changes
 
 - Updated dependencies [34fb1d8]
-  - llamaindex@0.3.12
+  - llamaflow@0.3.12
 
 ## 0.1.12
 
@@ -204,14 +204,14 @@
 - Updated dependencies [9e133ac]
 - Updated dependencies [447105a]
 - Updated dependencies [320be3f]
-  - llamaindex@0.3.11
+  - llamaflow@0.3.11
 
 ## 0.1.11
 
 ### Patch Changes
 
 - Updated dependencies [4aba02e]
-  - llamaindex@0.3.10
+  - llamaflow@0.3.10
 
 ## 0.1.10
 
@@ -219,17 +219,17 @@
 
 - c3747d0: fix: import `@xenova/transformers`
 
-  For now, if you use llamaindex in next.js, you need to add a plugin from `llamaindex/next` to ensure some module resolutions are correct.
+  For now, if you use llamaflow in next.js, you need to add a plugin from `llamaflow/next` to ensure some module resolutions are correct.
 
 - Updated dependencies [c3747d0]
-  - llamaindex@0.3.9
+  - llamaflow@0.3.9
 
 ## 0.1.9
 
 ### Patch Changes
 
 - Updated dependencies [ce94780]
-  - llamaindex@0.3.8
+  - llamaflow@0.3.8
 
 ## 0.1.8
 
@@ -237,14 +237,14 @@
 
 - Updated dependencies [b6a6606]
 - Updated dependencies [b6a6606]
-  - llamaindex@0.3.7
+  - llamaflow@0.3.7
 
 ## 0.1.7
 
 ### Patch Changes
 
 - Updated dependencies [efa326a]
-  - llamaindex@0.3.6
+  - llamaflow@0.3.6
 
 ## 0.1.6
 
@@ -255,7 +255,7 @@
 - Updated dependencies [5596e31]
 - Updated dependencies [e74fe88]
 - Updated dependencies [be5df5b]
-  - llamaindex@0.3.5
+  - llamaflow@0.3.5
 
 ## 0.1.5
 
@@ -267,32 +267,32 @@
 - Updated dependencies [5e61934]
 - Updated dependencies [9e74a43]
 - Updated dependencies [ee719a1]
-  - llamaindex@0.3.4
+  - llamaflow@0.3.4
 
 ## 0.1.4
 
 ### Patch Changes
 
 - Updated dependencies [e8c41c5]
-  - llamaindex@0.3.3
+  - llamaflow@0.3.3
 
 ## 0.1.3
 
 ### Patch Changes
 
 - Updated dependencies [61103b6]
-  - llamaindex@0.3.2
+  - llamaflow@0.3.2
 
 ## 0.1.2
 
 ### Patch Changes
 
 - Updated dependencies [46227f2]
-  - llamaindex@0.3.1
+  - llamaflow@0.3.1
 
 ## 0.1.1
 
 ### Patch Changes
 
 - Updated dependencies [5016f21]
-  - llamaindex@0.3.0
+  - llamaflow@0.3.0

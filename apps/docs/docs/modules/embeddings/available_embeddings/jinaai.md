@@ -1,6 +1,6 @@
 # Jina AI
 
-To use Jina AI embeddings, you need to import `JinaAIEmbedding` from `llamaindex`.
+To use Jina AI embeddings, you need to import `JinaAIEmbedding` from `llamaflow`.
 
 ```ts
 import { JinaAIEmbedding, Settings } from "llamaflow";

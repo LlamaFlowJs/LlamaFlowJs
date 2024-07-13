@@ -1,6 +1,6 @@
 # MistralAI
 
-To use MistralAI embeddings, you need to import `MistralAIEmbedding` from `llamaindex`.
+To use MistralAI embeddings, you need to import `MistralAIEmbedding` from `llamaflow`.
 
 ```ts
 import { MistralAIEmbedding, Settings } from "llamaflow";

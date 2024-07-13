@@ -4,7 +4,7 @@ In this tutorial, we define a custom router query engine that selects one out of
 
 ## Setup
 
-First, we need to install import the necessary modules from `llamaindex`:
+First, we need to install import the necessary modules from `llamaflow`:
 
 ```bash
 pnpm i lamaindex
@@ -28,7 +28,7 @@ Next, we need to load some data. We will use the `SimpleDirectoryReader` to load
 
 ```ts
 const documents = await new SimpleDirectoryReader().loadData({
-  directoryPath: "node_modules/llamaindex/examples",
+  directoryPath: "node_modules/llamaflow/examples",
 });
 ```
 
@@ -118,7 +118,7 @@ Settings.nodeParser = new SimpleNodeParser({
 async function main() {
   // Load documents from a directory
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "node_modules/llamaindex/examples",
+    directoryPath: "node_modules/llamaflow/examples",
   });
 
   // Create indices

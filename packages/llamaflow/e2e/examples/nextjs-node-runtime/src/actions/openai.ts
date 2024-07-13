@@ -6,8 +6,8 @@ import {
   Settings,
   VectorStoreIndex,
 } from "llamaflow";
-import { HuggingFaceEmbedding } from "llamaindex/embeddings/HuggingFaceEmbedding";
-import { SimpleDirectoryReader } from "llamaindex/readers/SimpleDirectoryReader";
+import { HuggingFaceEmbedding } from "llamaflow/embeddings/HuggingFaceEmbedding";
+import { SimpleDirectoryReader } from "llamaflow/readers/SimpleDirectoryReader";
 
 Settings.llm = new OpenAI({
   // eslint-disable-next-line turbo/no-undeclared-env-vars

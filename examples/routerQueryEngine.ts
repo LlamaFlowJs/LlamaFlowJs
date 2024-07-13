@@ -19,7 +19,7 @@ Settings.nodeParser = new SimpleNodeParser({
 async function main() {
   // Load documents from a directory
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "node_modules/llamaindex/examples",
+    directoryPath: "node_modules/llamaflow/examples",
   });
 
   // Create indices

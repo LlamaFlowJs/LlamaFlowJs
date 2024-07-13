@@ -9,7 +9,7 @@ An “agent” is an automated reasoning and decision engine. It takes in a user
 
 ## Getting Started
 
-LlamaIndex.TS comes with a few built-in agents, but you can also create your own. The built-in agents include:
+LlamaFlow comes with a few built-in agents, but you can also create your own. The built-in agents include:
 
 - OpenAI Agent
 - Anthropic Agent both via Anthropic and Bedrock (in `@llamaflow/community`)

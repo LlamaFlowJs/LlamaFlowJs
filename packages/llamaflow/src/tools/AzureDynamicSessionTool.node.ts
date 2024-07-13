@@ -107,7 +107,7 @@ let _userAgent = "";
 /**
  * A utility function to generate the user agent in the format:
  *
- * `llamaIndex-azure-dynamic-sessions (Language=TypeScript; node.js/v14.17.0; darwin/x64)`
+ * `llamaflow-azure-dynamic-sessions (Language=TypeScript; node.js/v14.17.0; darwin/x64)`
  * @returns The user agent string.
  */
 async function getuserAgentSuffix(): Promise<string> {
@@ -125,7 +125,7 @@ async function getuserAgentSuffix(): Promise<string> {
       _userAgent = `${json.name}/${json.version}`;
     }
   } catch (e) {
-    _userAgent = `llamaIndex-azure-dynamic-sessions`;
+    _userAgent = `llamaflow-azure-dynamic-sessions`;
   }
   return `${_userAgent} (Language=TypeScript; node.js/${process.version}; ${process.platform}; ${process.arch})`;
 }

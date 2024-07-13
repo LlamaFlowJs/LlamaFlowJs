@@ -2,7 +2,7 @@ import type { AgentEndEvent, AgentStartEvent } from "./agent/types.js";
 import type { RetrievalEndEvent, RetrievalStartEvent } from "./llm/types.js";
 
 declare module "@llamaflow/core/global" {
-  export interface LlamaIndexEventMaps {
+  export interface LlamaFlowEventMaps {
     "retrieve-start": RetrievalStartEvent;
     "retrieve-end": RetrievalEndEvent;
     // agent events

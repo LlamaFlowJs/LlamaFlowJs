@@ -1,6 +1,6 @@
 # Ollama
 
-To use Ollama embeddings, you need to import `OllamaEmbedding` from `llamaindex`.
+To use Ollama embeddings, you need to import `OllamaEmbedding` from `llamaflow`.
 
 Note that you need to pull the embedding model first before using it.
 

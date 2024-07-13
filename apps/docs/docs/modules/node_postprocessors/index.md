@@ -4,9 +4,9 @@
 
 Node postprocessors are a set of modules that take a set of nodes, and apply some kind of transformation or filtering before returning them.
 
-In LlamaIndex, node postprocessors are most commonly applied within a query engine, after the node retrieval step and before the response synthesis step.
+In LlamaFlow, node postprocessors are most commonly applied within a query engine, after the node retrieval step and before the response synthesis step.
 
-LlamaIndex offers several node postprocessors for immediate use, while also providing a simple API for adding your own custom postprocessors.
+LlamaFlow offers several node postprocessors for immediate use, while also providing a simple API for adding your own custom postprocessors.
 
 ## Usage Pattern
 
@@ -26,7 +26,7 @@ const nodes: NodeWithScore[] = [
     score: 0.8,
   },
   {
-    node: new TextNode({ text: "LlamaIndex is the best" }),
+    node: new TextNode({ text: "LlamaFlow is the best" }),
     score: 0.6,
   },
 ];
@@ -51,7 +51,7 @@ console.log(filteredNodes, rerankedNodes);
 
 Now you can use the `filteredNodes` and `rerankedNodes` in your application.
 
-## Using Node Postprocessors in LlamaIndex
+## Using Node Postprocessors in LlamaFlow
 
 Most commonly, node-postprocessors will be used in a query engine, where they are applied to the nodes returned from a retriever, and before the response synthesis step.
 
@@ -69,7 +69,7 @@ const nodes: NodeWithScore[] = [
     score: 0.8,
   },
   {
-    node: new TextNode({ text: "LlamaIndex is the best" }),
+    node: new TextNode({ text: "LlamaFlow is the best" }),
     score: 0.6,
   }
 ];

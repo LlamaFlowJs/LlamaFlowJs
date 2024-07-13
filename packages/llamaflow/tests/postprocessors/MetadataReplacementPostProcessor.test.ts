@@ -1,6 +1,6 @@
 import type { NodeWithScore } from "@llamaflow/core/schema";
 import { MetadataMode, TextNode } from "@llamaflow/core/schema";
-import { MetadataReplacementPostProcessor } from "llamaindex/postprocessors/index";
+import { MetadataReplacementPostProcessor } from "llamaflow/postprocessors/index";
 import { beforeEach, describe, expect, test } from "vitest";
 
 describe("MetadataReplacementPostProcessor", () => {

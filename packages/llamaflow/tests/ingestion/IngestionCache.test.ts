@@ -3,9 +3,9 @@ import { TextNode } from "@llamaflow/core/schema";
 import {
   IngestionCache,
   getTransformationHash,
-} from "llamaindex/ingestion/IngestionCache";
-import type { TransformComponent } from "llamaindex/ingestion/index";
-import { SimpleNodeParser } from "llamaindex/nodeParsers/index";
+} from "llamaflow/ingestion/IngestionCache";
+import type { TransformComponent } from "llamaflow/ingestion/index";
+import { SimpleNodeParser } from "llamaflow/nodeParsers/index";
 import { beforeAll, describe, expect, test } from "vitest";
 
 describe("IngestionCache", () => {

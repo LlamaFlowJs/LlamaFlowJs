@@ -4,9 +4,9 @@
  * @example
  * ```js
  * // next.config.js
- * const withLlamaIndex = require("llamaindex/next")
+ * const withLlamaFlow = require("llamaflow/next")
  *
- * module.exports = withLlamaIndex({
+ * module.exports = withLlamaFlow({
  *  // Your Next.js configuration
  * })
  * ```
@@ -15,7 +15,7 @@
  *
  * @module
  */
-export default function withLlamaIndex(config: any) {
+export default function withLlamaFlow(config: any) {
   config.experimental = config.experimental ?? {};
   config.experimental.serverComponentsExternalPackages =
     config.experimental.serverComponentsExternalPackages ?? [];

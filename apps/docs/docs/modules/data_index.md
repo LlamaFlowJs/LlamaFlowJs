@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Index
 
-An index is the basic container and organization for your data. LlamaIndex.TS supports two indexes:
+An index is the basic container and organization for your data. LlamaFlow supports two indexes:
 
 - `VectorStoreIndex` - will send the top-k `Node`s to the LLM when generating a response. The default top-k is 2.
 - `SummaryIndex` - will send every `Node` in the index to the LLM in order to generate a response
