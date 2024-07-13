@@ -3,7 +3,7 @@ name: Publish to GitHub Releases
 on:
   push:
     tags:
-      - "llamaindex@*"
+      - "llamaflow@*"
 
 jobs:
   build-and-publish:
@@ -26,12 +26,12 @@ jobs:
       - name: Build tarball
         run: |
           pnpm pack
-        working-directory: packages/llamaindex
+        working-directory: packages/llamaflow
 
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "packages/llamaindex/llamaindex-*.tgz"
+          artifacts: "packages/llamaflow/llamaflow-*.tgz"
           name: Release ${{ github.ref }}
-          bodyFile: "packages/llamaindex/CHANGELOG.md"
+          bodyFile: "packages/llamaflow/CHANGELOG.md"
           token: ${{ secrets.GITHUB_TOKEN }}
