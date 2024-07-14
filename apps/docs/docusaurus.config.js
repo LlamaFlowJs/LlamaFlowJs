@@ -9,7 +9,7 @@ const darkCodeTheme = renderer.themes.dracula;
 const config = {
   title: "llamaflowjs",
   tagline: "Unleash the power of LLMs over your data in TypeScript",
-  favicon: "img/favicon.png",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://llamaflowjs.ai",
@@ -59,12 +59,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/favicon.png", // TODO change this
+      image: "img/favicon.ico", // TODO change this
       navbar: {
         title: "llamaflowjs",
         logo: {
           alt: "llamaflowjs",
-          src: "img/favicon.png",
+          src: "img/favicon.ico",
         },
         items: [
           {
@@ -79,7 +79,7 @@ const config = {
           },
           { to: "blog", label: "Blog", position: "right" },
           {
-            href: "https://github.com/run-llama/llamaflowTS",
+            href: "https://github.com/LlamaFlowJs/LlamaFlowJs",
             label: "GitHub",
             position: "right",
           },
@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discord.com/invite/eN6D2HQ4aX",
+                href: "https://discord.gg/WWcNbXrH",
               },
               {
                 label: "Twitter",
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/run-llama/llamaflowTS",
+                href: "https://github.com/LlamaFlowJs/LlamaFlowJs",
               },
             ],
           },
@@ -147,7 +147,7 @@ const config = {
         tsconfig: "../../tsconfig.json",
         readme: "none",
         sourceLinkTemplate:
-          "https://github.com/run-llama/llamaflowTS/blob/{gitRevision}/{path}#L{line}",
+          "https://github.com/LlamaFlowJs/LlamaFlowJs/blob/{gitRevision}/{path}#L{line}",
         sidebar: {
           position: 6,
         },

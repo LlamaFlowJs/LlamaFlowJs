@@ -22,7 +22,7 @@ The basic concept of the Sub Question Query Engine is that it splits a single qu
 
 ### Getting Started
 
-The easiest way to start trying the Sub Question Query Engine is running the subquestion.ts file in [examples](https://github.com/run-llama/llamaflowTS/blob/main/examples/subquestion.ts).
+The easiest way to start trying the Sub Question Query Engine is running the subquestion.ts file in [examples](https://github.com/LlamaFlowJs/LlamaFlowJs/blob/main/examples/subquestion.ts).
 
 ```bash
 npx ts-node subquestion.ts

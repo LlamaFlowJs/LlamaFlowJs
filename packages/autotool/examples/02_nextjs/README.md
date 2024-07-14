@@ -1,4 +1,4 @@
-This is a [llamaflowjs](https://www.llamaflowjs.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/llamaflowTS/tree/main/packages/create-llama).
+This is a [llamaflowjs](https://www.llamaflowjs.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/LlamaFlowJs/LlamaFlowJs/tree/main/packages/create-llama).
 
 ## Getting Started
 
@@ -27,4 +27,4 @@ To learn more about llamaflowjs, take a look at the following resources:
 - [llamaflowjs Documentation](https://docs.llamaflowjs.ai) - learn about llamaflowjs (Python features).
 - [llamaflowjs Documentation](https://llamaflowjs.ai) - learn about llamaflowjs (Typescript features).
 
-You can check out [the llamaflowjs GitHub repository](https://github.com/run-llama/llamaflowTS) - your feedback and contributions are welcome!
+You can check out [the llamaflowjs GitHub repository](https://github.com/LlamaFlowJs/LlamaFlowJs) - your feedback and contributions are welcome!

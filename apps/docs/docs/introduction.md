@@ -3,9 +3,11 @@ sidebar_position: 0
 slug: /
 ---
 
+![What is llamaflowjs for?](../static/img/logo.png)
+
 # What is llamaflowjs?
 
-llamaflowjs is a framework for building LLM-powered applications. llamaflowjs helps you ingest, structure, and access private or domain-specific data. It's available [as a Python package](https://docs.llamaflowjs.ai/en/stable/) and in TypeScript (this package). llamaflowjs offers the core features of llamaflowjs for popular runtimes like Node.js (official support), Vercel Edge Functions (experimental), and Deno (experimental).
+llamaflowjs is a framework for building LLM-powered applications. llamaflowjs helps you ingest, structure, and access private or domain-specific data.llamaflowjs offers the most easy to use framework to build LLM applications for popular runtimes like Node.js (official support), Vercel Edge Functions (experimental), and Deno (experimental).
 
 ## 🚀 Why llamaflowjs?
 
@@ -15,7 +17,7 @@ Applications built on top of LLMs often require augmenting these models with pri
 
 llamaflowjs helps you unlock that data and then build powerful applications with it.
 
-## 🦙 What is llamaflowjs for?
+## ![What is llamaflowjs for?](../static/img/favicon.ico) What is llamaflowjs for?
 
 llamaflowjs handles several major use cases:
 
@@ -43,12 +45,12 @@ Once you're up and running, [High-Level Concepts](./getting_started/concepts.md)
 
 To download or contribute, find llamaflowjs on:
 
-- Github: https://github.com/run-llama/llamaflowTS
+- Github: https://github.com/LlamaFlowJs/LlamaFlowJs
 - NPM: https://www.npmjs.com/package/llamaflowjs
 
 ## Community
 
 Need help? Have a feature suggestion? Join the llamaflowjs community:
 
-- Twitter: https://twitter.com/llama_index
-- Discord https://discord.gg/dGcwcsnxhU
+- Twitter: https://twitter.com/llamaflowjs
+- Discord https://discord.gg/WWcNbXrH
