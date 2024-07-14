@@ -8,19 +8,20 @@ const darkCodeTheme = renderer.themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "llamaflowjs",
-  tagline: "Unleash the power of LLMs over your data in TypeScript",
+  tagline:
+    "llamaflowjs is a framework that has inbuilt agentic workflows,reiterative reflection and llm review system making it a true framework for llm applications",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://llamaflowjs.ai",
+  url: "https://llamaflowjs.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "run-llama", // Usually your GitHub org/user name.
-  projectName: "llamaflowjs", // Usually your repo name.
+  organizationName: "LlamaFlowJs", // Usually your GitHub org/user name.
+  projectName: "LlamaFlowJs", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -133,7 +134,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: "c4ff3789f20bb72a5d735082aef17719",
 
-        indexName: "ts-llamaflowjs",
+        indexName: "llamaflowjs",
 
         // Optional: see doc section below
         contextualSearch: true,
