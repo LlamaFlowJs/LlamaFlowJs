@@ -4,8 +4,8 @@
   <ShortName>llamaflowjs</ShortName>
   <Description>Search llamaflowjs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://llamaflowjs.org/LlamaFlowJs/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://llamaflowjs.org/LlamaFlowJs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://llamaflowjs.org/LlamaFlowJs/opensearch.xml" />
-  <moz:SearchForm>https://llamaflowjs.org/LlamaFlowJs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://llamaflowjs.org/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://llamaflowjs.org/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://llamaflowjs.org/opensearch.xml" />
+  <moz:SearchForm>https://llamaflowjs.org/</moz:SearchForm>
 </OpenSearchDescription>
