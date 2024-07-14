@@ -143,4 +143,4 @@ We are in the very early days of llamaflowjs. If you’re interested in hacking 
 
 ## Bugs? Questions?
 
-Please join our Discord! https://discord.com/invite/llamaflowjs
+Please join our Discord! https://discord.gg/WWcNbXrH
